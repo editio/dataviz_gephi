@@ -1,1 +1,3 @@
-# dataviz_gephi
+# Creación y visualización de redes
+
+Introducción, referencias y datos
