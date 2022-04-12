@@ -38,7 +38,7 @@
 - Atributos: información extra sobre nodos o aristas
 - Tipos de redes:
     - Definen los nodos: bipartitas, simples
-    - Definen las aristas: múltiples, directas, indirectas
+    - Definen las aristas: múltiples, indirectas,...
 
 
 ## Red simple
@@ -53,14 +53,34 @@
 
 ![](images/terms_multiple.png) 
 
-
-
-
 # Formalización y formatos
 
-- Formalización:
-    - Listas de aristas
-    - Matrices
+## Formalización
+
+Lista de aristas, matrices, lista de adyacencia, ...
+
+**Lista de aristas (_edgelist_)**: es conjunto de datos estructurados (tabla) que contiene como mínimo dos columnas: una columna de nodos que son el origen de una conexión (_source_) y otra columna de nodos que son el destino de la conexión (_target_). El resto de columnas corresponden a los atributos.
+
+|source |target|weight|lang|type|
+|-------|------|----|-----|----|
+|Juan|Elena |4 |esp     |undirected|
+|Juan|Hans  |2  |de     |undirected|
+|Juan|Marta  |1 |eng     |undirected|
+|Juan|Marek |1  |de     |undirected|
+|...|... |... |...|...|
+
+**Matriz de adyacencia (Adjacency matrix)**: una matriz cuadrada (igual número de columnas y filas)
+
+| | |Juan|Hans|Elena|Marta|Marek|
+|--|--|------|----|-----|----|--|
+|**Juan**||0|1|1|1|3|
+|**Hans**||1|0|0|1|1|
+|**Elena**||1|0|0|0|0|
+|**Marta**||1|1|0|0|0|
+|**Marek**||3|1|0|0|0|
+
+[...]
+
 - Formatos:
     - csv, gexf
 
