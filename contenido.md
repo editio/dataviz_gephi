@@ -73,17 +73,17 @@ Lista de aristas, matrices, lista de adyacencia, ...
 
 | |Juan|Hans|Elena|Marta|Marek|
 |--|--|------|----|-----|----|
-|**Juan**|0|1|1|1|3|
+|**Juan**|0|1|1|1|1|
 |**Hans**|1|0|0|1|1|
 |**Elena**|1|0|0|0|0|
 |**Marta**|1|1|0|0|0|
-|**Marek**|3|1|0|0|0|
+|**Marek**|1|1|0|0|0|
 
 [...]
 
 # Formatos
 
-- ```CSV```
+- ```CSV```. Lista de aristas en CSV:
 
 ```
 source,target,lengua,weight
@@ -97,7 +97,7 @@ Hans,Marta,eng,1
 Hans,Marek,de,1
 ```
 
-- ```gexf```
+- ```gexf``` (XML)
 
 ```xml
 [...]
@@ -126,15 +126,28 @@ Hans,Marek,de,1
 
 # Visualización. Algoritmos
 
-- Force Atlas
-- Fruchteman Reingold
-- ...
+Misma red, distinta visualización
+
+![](images/network_viz.png)
+
+Red bipartita
+
+![](images/terms_bipartita_layout.png)
+
+
+## Algoritmos para dibujar el grafo. 
+
+![](images/network_layouts.png)
+
+- Clásicos en Gephi: _Force Atlas 2_, _Fruchterman Reingold_,...
 
 # Métricas (centralidad)
 
-- Degree centrality: nº de conexiones
-- Betweenness centrality, nodos puente 
-- Eigenvector centrality, nodos conectados a nodos
+![](images/terms_metrics.png)
+
+- _Degree centrality_: nº de conexiones
+- _Betweenness centrality_, nodos puente 
+- _Eigenvector centrality_, nodos conectados a nodos
 
 > Algee-Hewitt, Mark (2017): “Distributed Character: Quantitative Models of the English Stage, 1550–1900”, New Literary History, 48, 4, pp. 751-782, <https://doi.org/10.1353/nlh.2017.0038>.
 
