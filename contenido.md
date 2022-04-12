@@ -79,7 +79,7 @@ Lista de aristas, matrices, lista de adyacencia, ...
 |**Marta**|1|1|0|0|0|
 |**Marek**|3|1|0|0|0|
 
-```[...]```
+[...]
 
 # Formatos
 
@@ -101,28 +101,26 @@ Hans,Marek,de,1
 
 ```xml
 [...]
-    <node id="Marek" label="Marek">
-    <attvalues>
-        <attvalue for="att1" value="2.0"/>
-    </attvalues>
-    <viz:size value="4.0"/>
-    <viz:position x="-22.013721" y="26.080078"/>
-    <viz:color r="255" g="99" b="71"/>
-    </node>
-</nodes>
-<edges>
-    <edge id="0" source="Juan" target="Hans" weight="2.0"/>
-    <edge id="1" source="Juan" target="Elena" weight="4.0"/>
-    <edge id="2" source="Juan" target="Marta"/>
-    <edge id="3" source="Juan" target="Marek" weight="7.0"/>
-    <edge id="4" source="Hans" target="Marta"/>
-    <edge id="5" source="Hans" target="Marek"/>
-</edges>
-</graph>
+      <node id="Marek" label="Marek">
+        <attvalues>
+          <attvalue for="att1" value="2.0"/>
+        </attvalues>
+        <viz:size value="4.0"/>
+        <viz:position x="-22.013721" y="26.080078"/>
+        <viz:color r="255" g="99" b="71"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Juan" target="Hans" weight="2.0"/>
+      <edge id="1" source="Juan" target="Elena" weight="4.0"/>
+      <edge id="2" source="Juan" target="Marta"/>
+      <edge id="3" source="Juan" target="Marek" weight="7.0"/>
+      <edge id="4" source="Hans" target="Marta"/>
+      <edge id="5" source="Hans" target="Marek"/>
+    </edges>
+  </graph>
 </gexf>
 ```
-
-
 
 - [Más formatos](https://gephi.org/users/supported-graph-formats/) (reconocidos por Gephi)
 
