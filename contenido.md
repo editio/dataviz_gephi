@@ -35,29 +35,26 @@
 - Red: puntos unidos por líneas.
 - Puntos: **nodos** o vértices (_nodes_ o _vertices_).
 - Líneas: **aristas** o enlaces (_edges_ o _links_).
-- Tipos de redes: simples, bipartitas, múltiples, no dirigidas...
+- Atributos: información extra sobre nodos o aristas
+- Tipos de redes:
+    - Definen los nodos: bipartitas, simples
+    - Definen las aristas: múltiples, directas, indirectas
+
 
 ## Red simple
 
-![](images/taller8_redSimple.png)
-
+![](images/terms_simple.png)
 
 ## Red bipartita  
 
 ![](images/terms_bipartita.png)
  
+## Red múltiple 
 
-red múltiple 
-========================================================
- 
-![](images/taller8_redmultiple.png) 
+![](images/terms_multiple.png) 
 
 
-- Ejemplo: red de amigos y lenguas que hablan
-- Nodos, aristas, atributos (pon lengua y sexo)
-- Tipos de redes
-    Definen los nodos: bipartitas, simples
-    Definen las aristas: directas, indirectas, múltiples
+
 
 # Formalización y formatos
 
