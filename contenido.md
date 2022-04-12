@@ -226,3 +226,11 @@ Red bipartita
 2. Plugin: Sigma Exporter
 
 
+# Tutoriales, manuales, bibliografía
+
+- Katherine Ognyanova, [Static and dynamic network visualization with R](https://kateto.net/network-visualization), 2021
+
+- Albert-László Barabási, [Network Science](http://networksciencebook.com), 2016
+- Katharina A. Zweig, _Network Analysis Literacy: A Practical Approach to the Analysis of Networks_, Springer, 2016.
+
+- Mark Newman, _Networks: An Introduction_, Oxford University Press, 2010
