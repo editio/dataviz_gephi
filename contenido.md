@@ -21,16 +21,14 @@
 - Redes culturales
     - [Premios y premiados](https://w.wiki/52Ju) 
 
-# Terminología: nodos y enlaces
-
-## Redes
+# Redes
 
 - Método de representación de patrones de conexión o interacción entre partes de sistema. 
 
 - El concepto de red supone una estructura relacional que puede ser estudiada (1) de forma lógica y matemática: Teoría de grafos (disciplina). 
 - (2) Exploración por medio de la visualización.
 
-## Conceptos básicos
+## Conceptos básicos. Nodos y enlaces
 
 - Red: puntos unidos por líneas.
 - Puntos: **nodos** o vértices (_nodes_ o _vertices_).
@@ -39,7 +37,6 @@
 - Tipos de redes:
     - Definen los nodos: bipartitas, simples
     - Definen las aristas: múltiples, indirectas,...
-
 
 ## Red simple
 
@@ -134,22 +131,29 @@ Red bipartita
 
 ![](images/terms_bipartita_layout.png)
 
-
-## Algoritmos para dibujar el grafo. 
+## Algoritmos para dibujar el grafo
 
 ![](images/network_layouts.png)
 
 - Clásicos en Gephi: _Force Atlas 2_, _Fruchterman Reingold_,...
 
-# Métricas (centralidad)
+![](images/añadir!)
+
+# Métricas
 
 ![](images/terms_metrics.png)
 
-- _Degree centrality_: nº de conexiones
-- _Betweenness centrality_, nodos puente 
-- _Eigenvector centrality_, nodos conectados a nodos
+- _Degree centrality_: nº de conexiones.
+- _Betweenness centrality_: nodos puente. 
+- _Eigenvector centrality_: nodos conectados a nodos.
 
-> Algee-Hewitt, Mark (2017): “Distributed Character: Quantitative Models of the English Stage, 1550–1900”, New Literary History, 48, 4, pp. 751-782, <https://doi.org/10.1353/nlh.2017.0038>.
+
+![degree-distribution](images/degree-distribution.png)
+
+- _Modularity_ (Louvain, Leiden algorithms): agrupaciones de nodos
+- ...
+
+> Algee-Hewitt, Mark (2017): “Distributed Character: Quantitative Models of the English Stage, 1550–1900”, _New Literary History_, 48, 4, pp. 751-782, <https://doi.org/10.1353/nlh.2017.0038>.
 
 # Herramientas: tratamiento, métricas, visualización
 
