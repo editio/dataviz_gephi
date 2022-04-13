@@ -23,7 +23,7 @@
 
 # Redes
 
-- Método de representación de patrones de conexión o interacción entre partes de sistema. 
+- Método de representación de patrones de conexión o interacción entre partes de un sistema.
 
 - El concepto de red supone una estructura relacional que puede ser estudiada (1) de forma lógica y matemática: Teoría de grafos (disciplina). 
 - (2) Exploración por medio de la visualización.
@@ -35,8 +35,8 @@
 - Líneas: **aristas** o enlaces (_edges_ o _links_).
 - Atributos: información extra sobre nodos o aristas
 - Tipos de redes:
-    - Definen los nodos: bipartitas, simples
-    - Definen las aristas: múltiples, indirectas,...
+    - Definen los nodos: bipartitas, simples, conectadas
+    - Definen las aristas: múltiples, indirectas, ...
 
 ## Red simple
 
@@ -121,7 +121,7 @@ Hans,Marek,de,1
 
 - [Más formatos](https://gephi.org/users/supported-graph-formats/) (reconocidos por Gephi)
 
-# Visualización. Algoritmos
+# Visualización (_spatialization_)
 
 Misma red, distinta visualización
 
@@ -155,6 +155,8 @@ Red bipartita
 
 > Algee-Hewitt, Mark (2017): “Distributed Character: Quantitative Models of the English Stage, 1550–1900”, _New Literary History_, 48, 4, pp. 751-782, <https://doi.org/10.1353/nlh.2017.0038>.
 
+![Ejemplos de varias métricas de centralidad sobre la misma red](https://upload.wikimedia.org/wikipedia/commons/1/11/6_centrality_measures.png)Tapiocozzo, Wikimedia Commons (CC BY-SA 4.0)
+
 # Herramientas: tratamiento, métricas, visualización
 
 - Lenguajes de Programación: R, Python, JavaScript
@@ -163,8 +165,14 @@ Red bipartita
 ## Gephi. [Open Graph Viz Platform](https://gephi.org)
 
 - Descarga, instalación, interfaz
+
+
+![](images/gephi_interfaz.png)
+
 - Plugins: multimode networks transformation; geolayout; sigma exporter.
     - Multimode networks transformation: "You can project your bipartite (2-mode) graph to monopartite (one-mode) graph." 
+
+- Memoria del ordenador...
 
 # Datos y archivos
 
@@ -217,19 +225,20 @@ Red bipartita
 2. Premios
 3. Autores
 
-## Formatos de publicación.
+## Formatos de publicación
 
 ☞ Formas de representación estática y dinámica de los grafos
 
-1. Preview panel: export svg, png, pdf
+1. Panel _Overview_: Screeshot (izquierda), More settings (derecha)...
+1. Panel _Preview_: exportar svg, png, pdf.
 2. Plugin: Sigma Exporter
-
 
 # Tutoriales, manuales, bibliografía
 
+- Albert-László Barabási, [Network Science](http://networksciencebook.com), 2016.
+- Gephi, [Learn how to use Gephi](https://gephi.org/users/).
+- Martin Grandjean, [Gephi: Introduction to Network Analysis and Visualization](http://www.martingrandjean.ch/gephi-introduction), 14/10/2015.
+- Clément Levallois, [Gephi tutorials](https://seinecle.github.io/gephi-tutorials/), Last update: 2022.
+- Mark Newman, _Networks: An Introduction_, Oxford University Press, 2010.
 - Katherine Ognyanova, [Static and dynamic network visualization with R](https://kateto.net/network-visualization), 2021
-
-- Albert-László Barabási, [Network Science](http://networksciencebook.com), 2016
 - Katharina A. Zweig, _Network Analysis Literacy: A Practical Approach to the Analysis of Networks_, Springer, 2016.
-
-- Mark Newman, _Networks: An Introduction_, Oxford University Press, 2010
