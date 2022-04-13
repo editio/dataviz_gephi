@@ -162,17 +162,25 @@ Red bipartita
 - Lenguajes de Programación: R, Python, JavaScript
 - Gephi, Cytoscape, VOSviewer (Bibliometría)
 
-## Gephi. [Open Graph Viz Platform](https://gephi.org)
+## Gephi. Open Graph Viz Platform
 
-- Descarga, instalación, interfaz
+Gephi acaba de ser actualizado a la versión 0.9.3 (last release: 11/03/2022). Se puede descargarlo desde su página <https://gephi.org>.
 
+Una de las ventajas de la nueva versión 0.9.3 es que viene ya con Java (lenguaje de programación y entorno de ejecución para programas como Gephi). Más sobre la instalación en <https://gephi.org/users/install/>
+
+## Interfaz: Panel _Overview_
 
 ![](images/gephi_interfaz.png)
 
-- Plugins: multimode networks transformation; geolayout; sigma exporter.
-    - Multimode networks transformation: "You can project your bipartite (2-mode) graph to monopartite (one-mode) graph." 
+## Plugins en Gephi: 
 
-- Memoria del ordenador...
+Se encuentran en Tools > Plugin. Añaden funcionalidades extra (métricas, importación, exportación, espacializaciones, ...) a Gephi. 
+
+- _Multimode networks transformation_: Proyecta una red bipartita a una simple.
+
+- _Sigma exporter_: Exporta el grafo para visualizarlo dinámicamente usando javascript y html.
+
+- _Leiden algorithm_: Algoritmo de modularidad.
 
 # Datos y archivos
 
