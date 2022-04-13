@@ -12,7 +12,7 @@
 - Redes Históricas:
     - [Mapping the archives of the League of Nations ICIC (1919-1927)](https://grandjeanmartin.github.io/intellectual-cooperation)
 - Redes espaciales
-    - [Centro y perifería la novela bizantina](https://editio.github.io/mapping.literature/spatialnet.html#persiles_core_vs_periphery)
+    - [Centro y periferia en la novela bizantina](https://editio.github.io/mapping.literature/spatialnet.html#persiles_core_vs_periphery)
 - Redes Bibliográficas
     
     - Citación: [Vosviewer](https://tinyurl.com/y36v4cb3)
@@ -158,8 +158,7 @@ Red bipartita
 # Herramientas: tratamiento, métricas, visualización
 
 - Lenguajes de Programación: R, Python, JavaScript
-- Gephi, Cytoscape
-- VOSviewer (Bibliometría)
+- Gephi, Cytoscape, VOSviewer (Bibliometría)
 
 ## Gephi. [Open Graph Viz Platform](https://gephi.org)
 
