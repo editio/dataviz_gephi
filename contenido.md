@@ -164,7 +164,7 @@ Red bipartita
 
 ## Gephi. Open Graph Viz Platform
 
-Gephi acaba de ser actualizado a la versión 0.9.3 (last release: 11/03/2022). Se puede descargarlo desde su página <https://gephi.org>.
+Gephi acaba de ser actualizado a la versión 0.9.3 (last release: 11/03/2022). Se puede descargar desde su página <https://gephi.org>.
 
 Una de las ventajas de la nueva versión 0.9.3 es que viene ya con Java (lenguaje de programación y entorno de ejecución para programas como Gephi). Más sobre la instalación en <https://gephi.org/users/install/>
 
@@ -174,7 +174,7 @@ Una de las ventajas de la nueva versión 0.9.3 es que viene ya con Java (lenguaj
 
 ## Plugins en Gephi: 
 
-Se encuentran en Tools > Plugin. Añaden funcionalidades extra (métricas, importación, exportación, espacializaciones, ...) a Gephi. 
+Se encuentran en Tools > Plugin. Añaden a Gephi funcionalidades extra (métricas, importación, exportación, espacializaciones, ...). 
 
 - _Multimode networks transformation_: Proyecta una red bipartita a una simple.
 
@@ -239,7 +239,8 @@ Se encuentran en Tools > Plugin. Añaden funcionalidades extra (métricas, impor
 
 1. Panel _Overview_: Screeshot (izquierda), More settings (derecha)...
 1. Panel _Preview_: exportar svg, png, pdf.
-2. Plugin: Sigma Exporter
+2. Plugin: _Sigma Exporter_. Crea una carpeta con las librerías, datos y ficheros para mostrar el grafo de forma interactiva en un navegador. Es necesario subirlo a un servidor web, por ejemplo, usando [Github Pages](https://pages.github.com). Se puede lanzar un servidor web local para realizar pruebas en local: [Instrucciones](http://phc.uni.wroc.pl/interreg/w/losada/trans.html#web-server-in-your-computer).
+
 
 # Tutoriales, manuales, bibliografía
 
