@@ -1,4 +1,4 @@
-☞ Esquema del recorrido del curso
+☞ Esquema del curso
 
 # Objeto de trabajo: redes en humanidades
 
@@ -35,8 +35,8 @@
 - Líneas: **aristas** o enlaces (_edges_ o _links_).
 - Atributos: información extra sobre nodos o aristas
 - Tipos de redes:
-    - Definen los nodos: [bipartitas](https://mathworld.wolfram.com/BipartiteGraph.html), simples, conectadas
-    - Definen las aristas: [múltiples](https://mathworld.wolfram.com/Multigraph.html), indirectas, ...
+    - Definen los nodos: [bipartitas](https://mathworld.wolfram.com/BipartiteGraph.html), [simples](https://mathworld.wolfram.com/SimpleGraph.html), [desconectadas](https://mathworld.wolfram.com/DisconnectedGraph.html)
+    - Definen las aristas: [múltiples](https://mathworld.wolfram.com/Multigraph.html), [dirigidas](https://mathworld.wolfram.com/DirectedGraph.html), ...
 
 ## Red simple
 
@@ -66,7 +66,7 @@ Lista de aristas, matrices, lista de adyacencia, ...
 |Juan|Marek |1  |de     |undirected|
 |...|... |... |...|...|
 
-**Matriz de adyacencia (Adjacency matrix)**: una matriz cuadrada (igual número de columnas y filas)
+**Matriz de adyacencia ([Adjacency matrix](https://mathworld.wolfram.com/AdjacencyMatrix.html))**: una matriz cuadrada (igual número de columnas y filas)
 
 | |Juan|Hans|Elena|Marta|Marek|
 |--|--|------|----|-----|----|
