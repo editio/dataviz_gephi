@@ -155,12 +155,16 @@ Cuatro medidas de centralidad sobre la misma red:
 
 ![Ejemplos de varias métricas de centralidad sobre la misma red](https://upload.wikimedia.org/wikipedia/commons/1/11/6_centrality_measures.png) Tapiocozzo (imagen editada), Wikimedia Commons (CC BY-SA 4.0).
 
-# Herramientas: tratamiento, métricas, visualización
+# Herramientas
+
+Flujo de trabajo: del dato a la visualización.
 
 ![work flow](images/workflow.png)
 
-- Lenguajexºs de Programación: R, Python, JavaScript
-- Gephi, Cytoscape, VOSviewer (Bibliometría)
+- Lenguajes de programación (flujo completo) : R, Python, JavaScript,...
+- OpenRefine, Table2net,...
+- Tableau, Nodegoat,...
+- Gephi, Cytoscape, VOSviewer,...
 
 ## Gephi. Open Graph Viz Platform
 
