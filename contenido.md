@@ -25,7 +25,7 @@
 
 - Método de representación de patrones de conexión o interacción entre partes de un sistema.
 
-- El concepto de red supone una estructura relacional que puede ser estudiada (1) de forma lógica y matemática: Teoría de grafos (disciplina). 
+- El concepto de red supone una estructura relacional que puede ser estudiada (1) de forma lógica y matemática: Teoría de grafos (disciplina). Historia: [Euler y los siete puentes de Königsberg](https://medium.com/@satoshihgsn/seven-bridges-of-königsberg-can-this-diagram-be-drawn-in-a-single-stroke-e261980711a1).
 - (2) Exploración por medio de la visualización.
 
 ## Conceptos básicos. Nodos y enlaces
@@ -35,8 +35,8 @@
 - Líneas: **aristas** o enlaces (_edges_ o _links_).
 - Atributos: información extra sobre nodos o aristas
 - Tipos de redes:
-    - Definen los nodos: bipartitas, simples, conectadas
-    - Definen las aristas: múltiples, indirectas, ...
+    - Definen los nodos: [bipartitas](https://mathworld.wolfram.com/BipartiteGraph.html), simples, conectadas
+    - Definen las aristas: [múltiples](https://mathworld.wolfram.com/Multigraph.html), indirectas, ...
 
 ## Red simple
 
@@ -123,7 +123,7 @@ Hans,Marek,de,1
 
 # Visualización (_spatialization_)
 
-Misma red, distinta visualización
+Misma red, distinta disposición.
 
 ![](images/network_viz.png)
 
@@ -135,7 +135,7 @@ Red bipartita
 
 ![](images/network_layouts.png)
 
-- Clásicos en Gephi: _Force Atlas 2_, _Fruchterman Reingold_,...
+- Clásicos en Gephi: _Force Atlas_, _Fruchterman Reingold_,...
 
 ![](images/añadir!)
 
@@ -146,20 +146,20 @@ Red bipartita
 - _Degree centrality_: nº de conexiones.
 - _Betweenness centrality_: nodos puente. 
 - _Eigenvector centrality_: nodos conectados a nodos.
-
+- _Modularity_ (Louvain, Leiden algorithms): agrupaciones de nodos.
+- ...
 
 ![degree-distribution](images/degree-distribution.png)
 
-- _Modularity_ (Louvain, Leiden algorithms): agrupaciones de nodos
-- ...
+Cuatro medidas de centralidad sobre la misma red:
 
-> Algee-Hewitt, Mark (2017): “Distributed Character: Quantitative Models of the English Stage, 1550–1900”, _New Literary History_, 48, 4, pp. 751-782, <https://doi.org/10.1353/nlh.2017.0038>.
-
-![Ejemplos de varias métricas de centralidad sobre la misma red](https://upload.wikimedia.org/wikipedia/commons/1/11/6_centrality_measures.png)Tapiocozzo, Wikimedia Commons (CC BY-SA 4.0)
+![Ejemplos de varias métricas de centralidad sobre la misma red](https://upload.wikimedia.org/wikipedia/commons/1/11/6_centrality_measures.png) Tapiocozzo (imagen editada), Wikimedia Commons (CC BY-SA 4.0).
 
 # Herramientas: tratamiento, métricas, visualización
 
-- Lenguajes de Programación: R, Python, JavaScript
+![work flow](images/workflow.png)
+
+- Lenguajexºs de Programación: R, Python, JavaScript
 - Gephi, Cytoscape, VOSviewer (Bibliometría)
 
 ## Gephi. Open Graph Viz Platform
