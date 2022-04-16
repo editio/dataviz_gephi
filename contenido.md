@@ -250,11 +250,12 @@ El set de datos completo está en [editio/premios-literarios](https://github.com
 
 ☞ Trabajar con redes más grandes, explorar redes bipartitas.
 
-1. Gephi > open ```autoresypremios.gexf```...
+1. Gephi > open ```autoresypremios.gexf```
+
 
 ## Red de premios y premiados (2)
 
-☞ Pasar de un tipo de red a otro
+☞ Pasar de un tipo de red a otro.
 
 1. Plugin: multimode networks transformation
 2. Premios
