@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Calderón de la Barca, Pedro: La vida es sueño</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="rosaura" label="ROSAURA, dama">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3487"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="clarín" label="CLARÍN, gracioso">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1311"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="segismundo" label="SEGISMUNDO, príncipe">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4256"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="clotaldo" label="CLOTALDO, viejo">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2719"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="soldados" label="Soldados">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="astolfo" label="ASTOLFO, príncipe">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1150"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="estrella" label="ESTRELLA, infanta">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="662"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="basilio" label="BASILIO, rey">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2386"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="criado-2" label="CRIADO 2">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="125"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="criado-1" label="CRIADO 1">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="39"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="soldado-1" label="Soldado 1">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="220"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="soldado-2" label="Soldado 2">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="99"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="guardas" label="Guardas">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="rosaura|clarín" source="rosaura" target="clarín" weight="3"/>
+            <edge id="rosaura|segismundo" source="rosaura" target="segismundo" weight="3"/>
+            <edge id="rosaura|clotaldo" source="rosaura" target="clotaldo" weight="3"/>
+            <edge id="rosaura|soldados" source="rosaura" target="soldados" weight="2"/>
+            <edge id="rosaura|astolfo" source="rosaura" target="astolfo" weight="3"/>
+            <edge id="rosaura|estrella" source="rosaura" target="estrella" weight="3"/>
+            <edge id="rosaura|basilio" source="rosaura" target="basilio" weight="3"/>
+            <edge id="rosaura|criado-2" source="rosaura" target="criado-2" weight="2"/>
+            <edge id="rosaura|criado-1" source="rosaura" target="criado-1" weight="2"/>
+            <edge id="rosaura|soldado-1" source="rosaura" target="soldado-1" weight="1"/>
+            <edge id="rosaura|soldado-2" source="rosaura" target="soldado-2" weight="1"/>
+            <edge id="rosaura|guardas" source="rosaura" target="guardas" weight="1"/>
+            <edge id="clarín|segismundo" source="clarín" target="segismundo" weight="3"/>
+            <edge id="clarín|clotaldo" source="clarín" target="clotaldo" weight="3"/>
+            <edge id="clarín|soldados" source="clarín" target="soldados" weight="2"/>
+            <edge id="clarín|astolfo" source="clarín" target="astolfo" weight="3"/>
+            <edge id="clarín|estrella" source="clarín" target="estrella" weight="3"/>
+            <edge id="clarín|basilio" source="clarín" target="basilio" weight="3"/>
+            <edge id="clarín|criado-2" source="clarín" target="criado-2" weight="2"/>
+            <edge id="clarín|criado-1" source="clarín" target="criado-1" weight="2"/>
+            <edge id="clarín|soldado-1" source="clarín" target="soldado-1" weight="1"/>
+            <edge id="clarín|soldado-2" source="clarín" target="soldado-2" weight="1"/>
+            <edge id="clarín|guardas" source="clarín" target="guardas" weight="1"/>
+            <edge id="segismundo|clotaldo" source="segismundo" target="clotaldo" weight="3"/>
+            <edge id="segismundo|soldados" source="segismundo" target="soldados" weight="2"/>
+            <edge id="segismundo|astolfo" source="segismundo" target="astolfo" weight="3"/>
+            <edge id="segismundo|estrella" source="segismundo" target="estrella" weight="3"/>
+            <edge id="segismundo|basilio" source="segismundo" target="basilio" weight="3"/>
+            <edge id="segismundo|criado-2" source="segismundo" target="criado-2" weight="2"/>
+            <edge id="segismundo|criado-1" source="segismundo" target="criado-1" weight="2"/>
+            <edge id="segismundo|soldado-1" source="segismundo" target="soldado-1" weight="1"/>
+            <edge id="segismundo|soldado-2" source="segismundo" target="soldado-2" weight="1"/>
+            <edge id="segismundo|guardas" source="segismundo" target="guardas" weight="1"/>
+            <edge id="clotaldo|soldados" source="clotaldo" target="soldados" weight="2"/>
+            <edge id="clotaldo|astolfo" source="clotaldo" target="astolfo" weight="3"/>
+            <edge id="clotaldo|estrella" source="clotaldo" target="estrella" weight="3"/>
+            <edge id="clotaldo|basilio" source="clotaldo" target="basilio" weight="3"/>
+            <edge id="clotaldo|criado-2" source="clotaldo" target="criado-2" weight="2"/>
+            <edge id="clotaldo|criado-1" source="clotaldo" target="criado-1" weight="2"/>
+            <edge id="clotaldo|soldado-1" source="clotaldo" target="soldado-1" weight="1"/>
+            <edge id="clotaldo|soldado-2" source="clotaldo" target="soldado-2" weight="1"/>
+            <edge id="clotaldo|guardas" source="clotaldo" target="guardas" weight="1"/>
+            <edge id="soldados|astolfo" source="soldados" target="astolfo" weight="2"/>
+            <edge id="soldados|estrella" source="soldados" target="estrella" weight="2"/>
+            <edge id="soldados|basilio" source="soldados" target="basilio" weight="2"/>
+            <edge id="soldados|soldado-1" source="soldados" target="soldado-1" weight="1"/>
+            <edge id="soldados|soldado-2" source="soldados" target="soldado-2" weight="1"/>
+            <edge id="soldados|criado-1" source="soldados" target="criado-1" weight="1"/>
+            <edge id="soldados|criado-2" source="soldados" target="criado-2" weight="1"/>
+            <edge id="soldados|guardas" source="soldados" target="guardas" weight="1"/>
+            <edge id="astolfo|estrella" source="astolfo" target="estrella" weight="3"/>
+            <edge id="astolfo|basilio" source="astolfo" target="basilio" weight="3"/>
+            <edge id="astolfo|criado-2" source="astolfo" target="criado-2" weight="2"/>
+            <edge id="astolfo|criado-1" source="astolfo" target="criado-1" weight="2"/>
+            <edge id="astolfo|soldado-1" source="astolfo" target="soldado-1" weight="1"/>
+            <edge id="astolfo|soldado-2" source="astolfo" target="soldado-2" weight="1"/>
+            <edge id="astolfo|guardas" source="astolfo" target="guardas" weight="1"/>
+            <edge id="estrella|basilio" source="estrella" target="basilio" weight="3"/>
+            <edge id="estrella|criado-2" source="estrella" target="criado-2" weight="2"/>
+            <edge id="estrella|criado-1" source="estrella" target="criado-1" weight="2"/>
+            <edge id="estrella|soldado-1" source="estrella" target="soldado-1" weight="1"/>
+            <edge id="estrella|soldado-2" source="estrella" target="soldado-2" weight="1"/>
+            <edge id="estrella|guardas" source="estrella" target="guardas" weight="1"/>
+            <edge id="basilio|criado-2" source="basilio" target="criado-2" weight="2"/>
+            <edge id="basilio|criado-1" source="basilio" target="criado-1" weight="2"/>
+            <edge id="basilio|soldado-1" source="basilio" target="soldado-1" weight="1"/>
+            <edge id="basilio|soldado-2" source="basilio" target="soldado-2" weight="1"/>
+            <edge id="basilio|guardas" source="basilio" target="guardas" weight="1"/>
+            <edge id="criado-2|criado-1" source="criado-2" target="criado-1" weight="2"/>
+            <edge id="criado-2|soldado-1" source="criado-2" target="soldado-1" weight="1"/>
+            <edge id="criado-2|soldado-2" source="criado-2" target="soldado-2" weight="1"/>
+            <edge id="criado-2|guardas" source="criado-2" target="guardas" weight="1"/>
+            <edge id="criado-1|soldado-1" source="criado-1" target="soldado-1" weight="1"/>
+            <edge id="criado-1|soldado-2" source="criado-1" target="soldado-2" weight="1"/>
+            <edge id="criado-1|guardas" source="criado-1" target="guardas" weight="1"/>
+            <edge id="soldado-1|soldado-2" source="soldado-1" target="soldado-2" weight="1"/>
+            <edge id="soldado-1|guardas" source="soldado-1" target="guardas" weight="1"/>
+            <edge id="soldado-2|guardas" source="soldado-2" target="guardas" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

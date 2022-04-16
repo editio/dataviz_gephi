@@ -11,6 +11,7 @@
     - [Estilometría de obras teatrales](https://editio.github.io/grafos/teatro)
 - Redes Históricas:
     - [Mapping the archives of the League of Nations ICIC (1919-1927)](https://grandjeanmartin.github.io/intellectual-cooperation)
+<!--  -  [Encyclopedia of Romantic Nationalism](https://ernie.uva.nl/viewer.p/21/56/scenario/177/soc/) -->
 - Redes espaciales
     - [Centro y periferia en la novela bizantina](https://editio.github.io/mapping.literature/spatialnet.html#persiles_core_vs_periphery)
 - Redes Bibliográficas
@@ -94,6 +95,21 @@ Hans,Marta,eng,1
 Hans,Marek,de,1
 ```
 
+- ```CSV```. Lista de Aristas + Nodos en CSV:
+
+```
+source,target
+1,4
+1,2
+1,3
+
+id,	Label
+1,Juan
+2,Hans
+3,Marta
+4,Elena
+```
+
 - ```gexf``` (XML)
 
 ```xml
@@ -145,15 +161,11 @@ Red bipartita
 
 - _Degree centrality_: nº de conexiones.
 - _Betweenness centrality_: nodos puente. 
-- _Eigenvector centrality_: nodos conectados a nodos.
+- _Eigenvector centrality_: nodos conectados a nodos bien conectados.
 - _Modularity_ (Louvain, Leiden algorithms): agrupaciones de nodos.
 - ...
 
 ![degree-distribution](images/degree-distribution.png)
-
-Cuatro medidas de centralidad sobre la misma red:
-
-![Ejemplos de varias métricas de centralidad sobre la misma red](https://upload.wikimedia.org/wikipedia/commons/1/11/6_centrality_measures.png) Tapiocozzo (imagen editada), Wikimedia Commons (CC BY-SA 4.0).
 
 # Herramientas
 
@@ -186,15 +198,26 @@ Se encuentran en Tools > Plugin. Añaden a Gephi funcionalidades extra (métrica
 
 - _Leiden algorithm_: Algoritmo de modularidad.
 
-# Datos y archivos
+# Datos
+
+Los archivos en formato CSV y GEXF se encuentran en la carpeta ```/data``` de este repositorio
 
 ## Teatro
 
-- Dracor
+Redes de caracteres de coaparición en el teatro. La fuente es <http://www.dracor.org>, desde donde se pueden descargar; los añado a ```/data``` por la facilidad.
+
+  - ```calderon_VidaEsSueno_ezlinavis.csv```
+  - ```cal000037-la-vida-es-sueno.gexf```
 
 ## Premios literarios
 
-- Red de premios y premiados 
+35 premios literarios y 1325 autores premiados: datos obtenidos de Wikidata. Tabla en CSV con 3 variables: premios, premiados y género (masc/fem.) y red bipartita en formato gexf.
+
+- ```autoresypremios.csv```
+- ```autoresypremios.gexf```
+
+El set de datos completo está en [editio/premios-literarios](https://github.com/editio/premios-literarios) y Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464417.svg)](https://doi.org/10.5281/zenodo.6464417)
+
 
 # Prácticas paso a paso
  
