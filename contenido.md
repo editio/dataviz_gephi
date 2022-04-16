@@ -242,7 +242,7 @@ El set de datos completo está en [editio/premios-literarios](https://github.com
 
 ☞ Pasar de datos estructurados (tabla de datos) a una formalización de una lista de aristas (gexf)
 
-1. Materiales en Github > data > ```premios_premiados.csv```
+1. Materiales en Github > data > ```autoresypremios.csv```
 2. [table2net](https://medialab.github.io/table2net/) 
 3. Load table > Type of Network > Nodes > Edges > Build the network
 
@@ -250,7 +250,7 @@ El set de datos completo está en [editio/premios-literarios](https://github.com
 
 ☞ Trabajar con redes más grandes, explorar redes bipartitas.
 
-1. Gephi > open ```premios_premiados.gexf```...
+1. Gephi > open ```autoresypremios.gexf```...
 
 ## Red de premios y premiados (2)
 
