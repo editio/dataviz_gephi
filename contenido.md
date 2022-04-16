@@ -1,5 +1,14 @@
 ☞ Esquema del curso
 
+- [Objeto de trabajo](#objeto-de-trabajo-redes-en-humanidades)
+- [Redes](#redes)
+- [Formalización y formatos](#formalización-y-formatos)
+- [Métricas](#métricas)
+- [Herramientas](#herramientas)
+- [Datos](#datos)
+- [Prácticas paso a paso](#prácticas-paso-a-paso)
+- [Tutoriales, manuales, bibliografía](#tutoriales-manuales-bibliografía)
+
 # Objeto de trabajo: redes en humanidades
 
 - Redes de caracteres
@@ -79,7 +88,7 @@ Lista de aristas, matrices, lista de adyacencia, ...
 
 [...]
 
-# Formatos
+## Formatos
 
 - ```CSV```. Lista de aristas en CSV:
 
