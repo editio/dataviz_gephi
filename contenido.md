@@ -216,7 +216,7 @@ Los archivos en formato CSV y GEXF se encuentran en la carpeta ```/data``` de es
 Redes de caracteres de coaparición en el teatro. La fuente es <http://www.dracor.org>, desde donde se pueden descargar; los añado a ```/data``` como respaldo.
 
   - ```calderon_VidaEsSueno_ezlinavis.csv```
-  - ```cal000037-la-vida-es-sueno.gexf```
+  - ```span000014-valle-luces.gexf```
 
 ## Premios literarios
 
@@ -229,22 +229,24 @@ El set de datos completo (+ listas de nodos y aristas) está en [editio/premios-
 
 # Prácticas paso a paso
  
-## Red de caracteres: _La vida es sueño_
+## Red de caracteres
 
 ☞ Practicar los fundamentos de una lista de aristas, cómo cargarla en Gephi y realizar los primeros pasos de visualización y métricas.
 
 1. Dracor > tools > https://ezlinavis.dracor.org > Examples > Calderón > descarga _edge list_.
 2. Gephi > Import spreadsheet (CSV) > next > finish.
 3. Layout: Fruchterman Reingold.
-4. Medidas de centralidad: Segismundo frente a Clarín.
-5. Color y tamaño de nodos. 
+4. Tamaño de nodos según el _degree_.
+5. Etiquetas de los nodos (_label_): "copy data to other column" (_Data laboratory_). Alternativa: "select attributes to display as labels" (Overview).
+5. Medidas de centralidad (Betweenness): Segismundo frente a Clarín (statistics > Network Diameter).
 
 ☞ Conocer el archivo en formato gexf, abrir en Gephi, atributos de los nodos (masculino/femenino).
 
-1. Dracor > corpora > [Calderon Corpora](https://dracor.org/cal) > Calderón, _La vida es sueño_ > Downloads > Archivo en gexf.
-2. Gephi > open > [sin cambios] > ok
+1. Dracor > corpora > [Spanish Drama Corpus](https://dracor.org/span) > Valle Inclán, _Luces de bohemia_ > Downloads > Archivo en gexf.
+2. Gephi > open > [sin cambios] > ok.
+3. Exploración de datos: _label_, _gender_ (_Data laboratory_).
 3. Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > gender
-4. Pruebas de métricas y layouts.
+4. Layout: Force Atlas 2.
 
 ## De los datos a la formalización: premios y premiados
 

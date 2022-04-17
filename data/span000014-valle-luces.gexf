@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Valle Inclán, Ramón María del: Luces de bohemia</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="max" label="Max Estrella">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2669"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="coll" label="Madame Collet">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="279"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="clau" label="Claudinita">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="146"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lati" label="Don Latino de Hispalis">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1987"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zara" label="Zaratustra">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="198"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gato" label="gato">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="can" label="can">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="loro" label="Un loro">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gay" label="Don Gay">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="316"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pelo" label="Un pelón">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chia" label="La chica">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="31"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="chic" label="Un chico de taberna">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="137"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="borr" label="Un borracho">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="55"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pisa" label="Enriqueta la pisa bien">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="670"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rey" label="El rey de Portugal">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="119"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pica" label="Pica lagartos">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="238"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="voz" label="La voz de un vecino">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dori" label="Dorio de Gadex">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="507"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pere" label="Pérez">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="40"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="grup" label="Grupo de los modernistas">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="42"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="clar" label="Clarinito">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="58"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="capi" label="El capitán Pitito">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="42"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sere" label="Un sereno">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="veno" label="Un vecino">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="guar" label="Un guardia del orden">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="103"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="otro" label="Otro guardia del orden">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="46"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sera" label="Serafín el bonito">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="142"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="guin" label="Un guindilla">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="22"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pres" label="Un preso">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="343"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="llav" label="El llavero">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="cons" label="El conserje de la redacción">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="33"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="fili" label="Don Filiberto">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="728"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dieg" label="Dieguito">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="258"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ujie" label="ujier">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="41"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mini" label="El ministro de la gobernación">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="432"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rube" label="Rubén Darío">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="406"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="jove" label="Un joven desconocido">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="38"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="viej" label="Una vieja pintada">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="81"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="luna" label="La lunares">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="343"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="madr" label="La madre del niño muerto">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="54"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="empe" label="El empeñista">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="56"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tabe" label="Un tabernero">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="45"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="port" label="La portera">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="278"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="alba" label="Un albañil">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="29"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="veja" label="Una vieja">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="trap" label="La trapera">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="reti" label="El retirado">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="veci" label="Una vecina">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="87"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="basi" label="Basilio Soulinake">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="352"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="coch" label="Un cochero de la funeraria">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="44"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sepu" label="Un sepulturero">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="155"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="osep" label="Otro sepulturero">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="110"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marq" label="El marqués de Bradomín">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="333"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="poll" label="El pollo del pay-pay">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="109"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="peri" label="La periodista">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="max|coll" source="max" target="coll" weight="1"/>
+            <edge id="max|clau" source="max" target="clau" weight="1"/>
+            <edge id="max|lati" source="max" target="lati" weight="9"/>
+            <edge id="max|zara" source="max" target="zara" weight="1"/>
+            <edge id="max|gato" source="max" target="gato" weight="1"/>
+            <edge id="max|can" source="max" target="can" weight="1"/>
+            <edge id="max|loro" source="max" target="loro" weight="1"/>
+            <edge id="max|gay" source="max" target="gay" weight="1"/>
+            <edge id="max|pelo" source="max" target="pelo" weight="1"/>
+            <edge id="max|chia" source="max" target="chia" weight="1"/>
+            <edge id="max|chic" source="max" target="chic" weight="1"/>
+            <edge id="max|borr" source="max" target="borr" weight="1"/>
+            <edge id="max|pisa" source="max" target="pisa" weight="2"/>
+            <edge id="max|rey" source="max" target="rey" weight="1"/>
+            <edge id="max|pica" source="max" target="pica" weight="1"/>
+            <edge id="max|voz" source="max" target="voz" weight="2"/>
+            <edge id="max|dori" source="max" target="dori" weight="1"/>
+            <edge id="max|pere" source="max" target="pere" weight="1"/>
+            <edge id="max|grup" source="max" target="grup" weight="2"/>
+            <edge id="max|clar" source="max" target="clar" weight="1"/>
+            <edge id="max|capi" source="max" target="capi" weight="1"/>
+            <edge id="max|sere" source="max" target="sere" weight="2"/>
+            <edge id="max|veno" source="max" target="veno" weight="1"/>
+            <edge id="max|guar" source="max" target="guar" weight="3"/>
+            <edge id="max|otro" source="max" target="otro" weight="2"/>
+            <edge id="max|sera" source="max" target="sera" weight="1"/>
+            <edge id="max|guin" source="max" target="guin" weight="1"/>
+            <edge id="max|pres" source="max" target="pres" weight="1"/>
+            <edge id="max|llav" source="max" target="llav" weight="1"/>
+            <edge id="max|dieg" source="max" target="dieg" weight="1"/>
+            <edge id="max|ujie" source="max" target="ujie" weight="1"/>
+            <edge id="max|mini" source="max" target="mini" weight="1"/>
+            <edge id="max|rube" source="max" target="rube" weight="1"/>
+            <edge id="max|jove" source="max" target="jove" weight="1"/>
+            <edge id="max|viej" source="max" target="viej" weight="1"/>
+            <edge id="max|luna" source="max" target="luna" weight="1"/>
+            <edge id="max|madr" source="max" target="madr" weight="1"/>
+            <edge id="max|empe" source="max" target="empe" weight="1"/>
+            <edge id="max|tabe" source="max" target="tabe" weight="1"/>
+            <edge id="max|port" source="max" target="port" weight="2"/>
+            <edge id="max|alba" source="max" target="alba" weight="1"/>
+            <edge id="max|veja" source="max" target="veja" weight="1"/>
+            <edge id="max|trap" source="max" target="trap" weight="1"/>
+            <edge id="max|reti" source="max" target="reti" weight="1"/>
+            <edge id="max|veci" source="max" target="veci" weight="1"/>
+            <edge id="coll|clau" source="coll" target="clau" weight="2"/>
+            <edge id="coll|lati" source="coll" target="lati" weight="2"/>
+            <edge id="coll|dori" source="coll" target="dori" weight="1"/>
+            <edge id="coll|clar" source="coll" target="clar" weight="1"/>
+            <edge id="coll|pere" source="coll" target="pere" weight="1"/>
+            <edge id="coll|basi" source="coll" target="basi" weight="1"/>
+            <edge id="coll|port" source="coll" target="port" weight="1"/>
+            <edge id="coll|coch" source="coll" target="coch" weight="1"/>
+            <edge id="clau|lati" source="clau" target="lati" weight="2"/>
+            <edge id="clau|dori" source="clau" target="dori" weight="1"/>
+            <edge id="clau|clar" source="clau" target="clar" weight="1"/>
+            <edge id="clau|pere" source="clau" target="pere" weight="1"/>
+            <edge id="clau|basi" source="clau" target="basi" weight="1"/>
+            <edge id="clau|port" source="clau" target="port" weight="1"/>
+            <edge id="clau|coch" source="clau" target="coch" weight="1"/>
+            <edge id="lati|zara" source="lati" target="zara" weight="1"/>
+            <edge id="lati|gato" source="lati" target="gato" weight="1"/>
+            <edge id="lati|can" source="lati" target="can" weight="1"/>
+            <edge id="lati|loro" source="lati" target="loro" weight="1"/>
+            <edge id="lati|gay" source="lati" target="gay" weight="1"/>
+            <edge id="lati|pelo" source="lati" target="pelo" weight="1"/>
+            <edge id="lati|chia" source="lati" target="chia" weight="1"/>
+            <edge id="lati|chic" source="lati" target="chic" weight="2"/>
+            <edge id="lati|borr" source="lati" target="borr" weight="2"/>
+            <edge id="lati|pisa" source="lati" target="pisa" weight="3"/>
+            <edge id="lati|rey" source="lati" target="rey" weight="1"/>
+            <edge id="lati|pica" source="lati" target="pica" weight="2"/>
+            <edge id="lati|voz" source="lati" target="voz" weight="1"/>
+            <edge id="lati|dori" source="lati" target="dori" weight="3"/>
+            <edge id="lati|pere" source="lati" target="pere" weight="3"/>
+            <edge id="lati|grup" source="lati" target="grup" weight="2"/>
+            <edge id="lati|clar" source="lati" target="clar" weight="3"/>
+            <edge id="lati|capi" source="lati" target="capi" weight="1"/>
+            <edge id="lati|sere" source="lati" target="sere" weight="2"/>
+            <edge id="lati|veno" source="lati" target="veno" weight="1"/>
+            <edge id="lati|guar" source="lati" target="guar" weight="3"/>
+            <edge id="lati|otro" source="lati" target="otro" weight="2"/>
+            <edge id="lati|sera" source="lati" target="sera" weight="1"/>
+            <edge id="lati|guin" source="lati" target="guin" weight="1"/>
+            <edge id="lati|cons" source="lati" target="cons" weight="1"/>
+            <edge id="lati|fili" source="lati" target="fili" weight="1"/>
+            <edge id="lati|rube" source="lati" target="rube" weight="1"/>
+            <edge id="lati|jove" source="lati" target="jove" weight="1"/>
+            <edge id="lati|viej" source="lati" target="viej" weight="1"/>
+            <edge id="lati|luna" source="lati" target="luna" weight="1"/>
+            <edge id="lati|madr" source="lati" target="madr" weight="1"/>
+            <edge id="lati|empe" source="lati" target="empe" weight="1"/>
+            <edge id="lati|tabe" source="lati" target="tabe" weight="1"/>
+            <edge id="lati|port" source="lati" target="port" weight="3"/>
+            <edge id="lati|alba" source="lati" target="alba" weight="1"/>
+            <edge id="lati|veja" source="lati" target="veja" weight="1"/>
+            <edge id="lati|trap" source="lati" target="trap" weight="1"/>
+            <edge id="lati|reti" source="lati" target="reti" weight="1"/>
+            <edge id="lati|veci" source="lati" target="veci" weight="1"/>
+            <edge id="lati|basi" source="lati" target="basi" weight="1"/>
+            <edge id="lati|coch" source="lati" target="coch" weight="1"/>
+            <edge id="lati|poll" source="lati" target="poll" weight="1"/>
+            <edge id="lati|peri" source="lati" target="peri" weight="1"/>
+            <edge id="zara|gato" source="zara" target="gato" weight="1"/>
+            <edge id="zara|can" source="zara" target="can" weight="1"/>
+            <edge id="zara|loro" source="zara" target="loro" weight="1"/>
+            <edge id="zara|gay" source="zara" target="gay" weight="1"/>
+            <edge id="zara|pelo" source="zara" target="pelo" weight="1"/>
+            <edge id="zara|chia" source="zara" target="chia" weight="1"/>
+            <edge id="gato|can" source="gato" target="can" weight="1"/>
+            <edge id="gato|loro" source="gato" target="loro" weight="1"/>
+            <edge id="gato|gay" source="gato" target="gay" weight="1"/>
+            <edge id="gato|pelo" source="gato" target="pelo" weight="1"/>
+            <edge id="gato|chia" source="gato" target="chia" weight="1"/>
+            <edge id="can|loro" source="can" target="loro" weight="1"/>
+            <edge id="can|gay" source="can" target="gay" weight="1"/>
+            <edge id="can|pelo" source="can" target="pelo" weight="1"/>
+            <edge id="can|chia" source="can" target="chia" weight="1"/>
+            <edge id="loro|gay" source="loro" target="gay" weight="1"/>
+            <edge id="loro|pelo" source="loro" target="pelo" weight="1"/>
+            <edge id="loro|chia" source="loro" target="chia" weight="1"/>
+            <edge id="gay|pelo" source="gay" target="pelo" weight="1"/>
+            <edge id="gay|chia" source="gay" target="chia" weight="1"/>
+            <edge id="pelo|chia" source="pelo" target="chia" weight="1"/>
+            <edge id="chic|borr" source="chic" target="borr" weight="2"/>
+            <edge id="chic|pisa" source="chic" target="pisa" weight="2"/>
+            <edge id="chic|rey" source="chic" target="rey" weight="1"/>
+            <edge id="chic|pica" source="chic" target="pica" weight="2"/>
+            <edge id="chic|voz" source="chic" target="voz" weight="1"/>
+            <edge id="chic|poll" source="chic" target="poll" weight="1"/>
+            <edge id="chic|peri" source="chic" target="peri" weight="1"/>
+            <edge id="borr|pisa" source="borr" target="pisa" weight="2"/>
+            <edge id="borr|rey" source="borr" target="rey" weight="1"/>
+            <edge id="borr|pica" source="borr" target="pica" weight="2"/>
+            <edge id="borr|voz" source="borr" target="voz" weight="1"/>
+            <edge id="borr|poll" source="borr" target="poll" weight="1"/>
+            <edge id="borr|peri" source="borr" target="peri" weight="1"/>
+            <edge id="pisa|rey" source="pisa" target="rey" weight="1"/>
+            <edge id="pisa|pica" source="pisa" target="pica" weight="2"/>
+            <edge id="pisa|voz" source="pisa" target="voz" weight="1"/>
+            <edge id="pisa|dori" source="pisa" target="dori" weight="1"/>
+            <edge id="pisa|pere" source="pisa" target="pere" weight="1"/>
+            <edge id="pisa|grup" source="pisa" target="grup" weight="1"/>
+            <edge id="pisa|clar" source="pisa" target="clar" weight="1"/>
+            <edge id="pisa|capi" source="pisa" target="capi" weight="1"/>
+            <edge id="pisa|sere" source="pisa" target="sere" weight="1"/>
+            <edge id="pisa|veno" source="pisa" target="veno" weight="1"/>
+            <edge id="pisa|guar" source="pisa" target="guar" weight="1"/>
+            <edge id="pisa|otro" source="pisa" target="otro" weight="1"/>
+            <edge id="pisa|poll" source="pisa" target="poll" weight="1"/>
+            <edge id="pisa|peri" source="pisa" target="peri" weight="1"/>
+            <edge id="rey|pica" source="rey" target="pica" weight="1"/>
+            <edge id="rey|voz" source="rey" target="voz" weight="1"/>
+            <edge id="pica|voz" source="pica" target="voz" weight="1"/>
+            <edge id="pica|poll" source="pica" target="poll" weight="1"/>
+            <edge id="pica|peri" source="pica" target="peri" weight="1"/>
+            <edge id="voz|pres" source="voz" target="pres" weight="1"/>
+            <edge id="voz|llav" source="voz" target="llav" weight="1"/>
+            <edge id="dori|pere" source="dori" target="pere" weight="3"/>
+            <edge id="dori|grup" source="dori" target="grup" weight="1"/>
+            <edge id="dori|clar" source="dori" target="clar" weight="3"/>
+            <edge id="dori|capi" source="dori" target="capi" weight="1"/>
+            <edge id="dori|sere" source="dori" target="sere" weight="1"/>
+            <edge id="dori|veno" source="dori" target="veno" weight="1"/>
+            <edge id="dori|guar" source="dori" target="guar" weight="1"/>
+            <edge id="dori|otro" source="dori" target="otro" weight="1"/>
+            <edge id="dori|cons" source="dori" target="cons" weight="1"/>
+            <edge id="dori|fili" source="dori" target="fili" weight="1"/>
+            <edge id="dori|basi" source="dori" target="basi" weight="1"/>
+            <edge id="dori|port" source="dori" target="port" weight="1"/>
+            <edge id="dori|coch" source="dori" target="coch" weight="1"/>
+            <edge id="pere|grup" source="pere" target="grup" weight="1"/>
+            <edge id="pere|clar" source="pere" target="clar" weight="3"/>
+            <edge id="pere|capi" source="pere" target="capi" weight="1"/>
+            <edge id="pere|sere" source="pere" target="sere" weight="1"/>
+            <edge id="pere|veno" source="pere" target="veno" weight="1"/>
+            <edge id="pere|guar" source="pere" target="guar" weight="1"/>
+            <edge id="pere|otro" source="pere" target="otro" weight="1"/>
+            <edge id="pere|cons" source="pere" target="cons" weight="1"/>
+            <edge id="pere|fili" source="pere" target="fili" weight="1"/>
+            <edge id="pere|basi" source="pere" target="basi" weight="1"/>
+            <edge id="pere|port" source="pere" target="port" weight="1"/>
+            <edge id="pere|coch" source="pere" target="coch" weight="1"/>
+            <edge id="grup|clar" source="grup" target="clar" weight="1"/>
+            <edge id="grup|capi" source="grup" target="capi" weight="1"/>
+            <edge id="grup|sere" source="grup" target="sere" weight="1"/>
+            <edge id="grup|veno" source="grup" target="veno" weight="1"/>
+            <edge id="grup|guar" source="grup" target="guar" weight="2"/>
+            <edge id="grup|otro" source="grup" target="otro" weight="2"/>
+            <edge id="grup|sera" source="grup" target="sera" weight="1"/>
+            <edge id="grup|guin" source="grup" target="guin" weight="1"/>
+            <edge id="clar|capi" source="clar" target="capi" weight="1"/>
+            <edge id="clar|sere" source="clar" target="sere" weight="1"/>
+            <edge id="clar|veno" source="clar" target="veno" weight="1"/>
+            <edge id="clar|guar" source="clar" target="guar" weight="1"/>
+            <edge id="clar|otro" source="clar" target="otro" weight="1"/>
+            <edge id="clar|cons" source="clar" target="cons" weight="1"/>
+            <edge id="clar|fili" source="clar" target="fili" weight="1"/>
+            <edge id="clar|basi" source="clar" target="basi" weight="1"/>
+            <edge id="clar|port" source="clar" target="port" weight="1"/>
+            <edge id="clar|coch" source="clar" target="coch" weight="1"/>
+            <edge id="capi|sere" source="capi" target="sere" weight="1"/>
+            <edge id="capi|veno" source="capi" target="veno" weight="1"/>
+            <edge id="capi|guar" source="capi" target="guar" weight="1"/>
+            <edge id="capi|otro" source="capi" target="otro" weight="1"/>
+            <edge id="sere|veno" source="sere" target="veno" weight="1"/>
+            <edge id="sere|guar" source="sere" target="guar" weight="2"/>
+            <edge id="sere|otro" source="sere" target="otro" weight="1"/>
+            <edge id="sere|madr" source="sere" target="madr" weight="1"/>
+            <edge id="sere|empe" source="sere" target="empe" weight="1"/>
+            <edge id="sere|tabe" source="sere" target="tabe" weight="1"/>
+            <edge id="sere|port" source="sere" target="port" weight="1"/>
+            <edge id="sere|alba" source="sere" target="alba" weight="1"/>
+            <edge id="sere|veja" source="sere" target="veja" weight="1"/>
+            <edge id="sere|trap" source="sere" target="trap" weight="1"/>
+            <edge id="sere|reti" source="sere" target="reti" weight="1"/>
+            <edge id="veno|guar" source="veno" target="guar" weight="1"/>
+            <edge id="veno|otro" source="veno" target="otro" weight="1"/>
+            <edge id="guar|otro" source="guar" target="otro" weight="2"/>
+            <edge id="guar|sera" source="guar" target="sera" weight="1"/>
+            <edge id="guar|guin" source="guar" target="guin" weight="1"/>
+            <edge id="guar|madr" source="guar" target="madr" weight="1"/>
+            <edge id="guar|empe" source="guar" target="empe" weight="1"/>
+            <edge id="guar|tabe" source="guar" target="tabe" weight="1"/>
+            <edge id="guar|port" source="guar" target="port" weight="1"/>
+            <edge id="guar|alba" source="guar" target="alba" weight="1"/>
+            <edge id="guar|veja" source="guar" target="veja" weight="1"/>
+            <edge id="guar|trap" source="guar" target="trap" weight="1"/>
+            <edge id="guar|reti" source="guar" target="reti" weight="1"/>
+            <edge id="otro|sera" source="otro" target="sera" weight="1"/>
+            <edge id="otro|guin" source="otro" target="guin" weight="1"/>
+            <edge id="sera|guin" source="sera" target="guin" weight="1"/>
+            <edge id="pres|llav" source="pres" target="llav" weight="1"/>
+            <edge id="cons|fili" source="cons" target="fili" weight="1"/>
+            <edge id="dieg|ujie" source="dieg" target="ujie" weight="1"/>
+            <edge id="dieg|mini" source="dieg" target="mini" weight="1"/>
+            <edge id="ujie|mini" source="ujie" target="mini" weight="1"/>
+            <edge id="rube|jove" source="rube" target="jove" weight="1"/>
+            <edge id="rube|sepu" source="rube" target="sepu" weight="1"/>
+            <edge id="rube|osep" source="rube" target="osep" weight="1"/>
+            <edge id="rube|marq" source="rube" target="marq" weight="1"/>
+            <edge id="viej|luna" source="viej" target="luna" weight="1"/>
+            <edge id="madr|empe" source="madr" target="empe" weight="1"/>
+            <edge id="madr|tabe" source="madr" target="tabe" weight="1"/>
+            <edge id="madr|port" source="madr" target="port" weight="1"/>
+            <edge id="madr|alba" source="madr" target="alba" weight="1"/>
+            <edge id="madr|veja" source="madr" target="veja" weight="1"/>
+            <edge id="madr|trap" source="madr" target="trap" weight="1"/>
+            <edge id="madr|reti" source="madr" target="reti" weight="1"/>
+            <edge id="empe|tabe" source="empe" target="tabe" weight="1"/>
+            <edge id="empe|port" source="empe" target="port" weight="1"/>
+            <edge id="empe|alba" source="empe" target="alba" weight="1"/>
+            <edge id="empe|veja" source="empe" target="veja" weight="1"/>
+            <edge id="empe|trap" source="empe" target="trap" weight="1"/>
+            <edge id="empe|reti" source="empe" target="reti" weight="1"/>
+            <edge id="tabe|port" source="tabe" target="port" weight="1"/>
+            <edge id="tabe|alba" source="tabe" target="alba" weight="1"/>
+            <edge id="tabe|veja" source="tabe" target="veja" weight="1"/>
+            <edge id="tabe|trap" source="tabe" target="trap" weight="1"/>
+            <edge id="tabe|reti" source="tabe" target="reti" weight="1"/>
+            <edge id="port|alba" source="port" target="alba" weight="1"/>
+            <edge id="port|veja" source="port" target="veja" weight="1"/>
+            <edge id="port|trap" source="port" target="trap" weight="1"/>
+            <edge id="port|reti" source="port" target="reti" weight="1"/>
+            <edge id="port|veci" source="port" target="veci" weight="1"/>
+            <edge id="port|basi" source="port" target="basi" weight="1"/>
+            <edge id="port|coch" source="port" target="coch" weight="1"/>
+            <edge id="alba|veja" source="alba" target="veja" weight="1"/>
+            <edge id="alba|trap" source="alba" target="trap" weight="1"/>
+            <edge id="alba|reti" source="alba" target="reti" weight="1"/>
+            <edge id="veja|trap" source="veja" target="trap" weight="1"/>
+            <edge id="veja|reti" source="veja" target="reti" weight="1"/>
+            <edge id="trap|reti" source="trap" target="reti" weight="1"/>
+            <edge id="basi|coch" source="basi" target="coch" weight="1"/>
+            <edge id="sepu|osep" source="sepu" target="osep" weight="1"/>
+            <edge id="sepu|marq" source="sepu" target="marq" weight="1"/>
+            <edge id="osep|marq" source="osep" target="marq" weight="1"/>
+            <edge id="poll|peri" source="poll" target="peri" weight="1"/>
+        </edges>
+    </graph>
+</gexf>
