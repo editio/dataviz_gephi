@@ -66,7 +66,7 @@
 
 Lista de aristas, matrices, lista de adyacencia, ...
 
-**Lista de aristas (_edgelist_)**: es conjunto de datos estructurados (tabla) que contiene como mínimo dos columnas: una columna de nodos que son el origen de una conexión (_source_) y otra columna de nodos que son el destino de la conexión (_target_). El resto de columnas corresponden a los atributos.
+**Lista de aristas (_edgelist_)**: es conjunto de datos estructurados que contiene como mínimo dos columnas: una columna de nodos que son el origen de una conexión (_source_) y otra columna de nodos que son el destino de la conexión (_target_). El resto de columnas corresponden a los atributos.
 
 |source |target|weight|lang|type|
 |-------|------|----|-----|----|
@@ -209,11 +209,11 @@ Se encuentran en Tools > Plugin. Añaden a Gephi funcionalidades extra (métrica
 
 # Datos
 
-Los archivos en formato CSV y GEXF se encuentran en la carpeta ```/data``` de este repositorio
+Los archivos en formato CSV y GEXF se encuentran en la carpeta ```/data``` de este repositorio.
 
 ## Teatro
 
-Redes de caracteres de coaparición en el teatro. La fuente es <http://www.dracor.org>, desde donde se pueden descargar; los añado a ```/data``` por la facilidad.
+Redes de caracteres de coaparición en el teatro. La fuente es <http://www.dracor.org>, desde donde se pueden descargar; los añado a ```/data``` como respaldo.
 
   - ```calderon_VidaEsSueno_ezlinavis.csv```
   - ```cal000037-la-vida-es-sueno.gexf```
@@ -225,8 +225,7 @@ Redes de caracteres de coaparición en el teatro. La fuente es <http://www.draco
 - ```autoresypremios.csv```
 - ```autoresypremios.gexf```
 
-El set de datos completo está en [editio/premios-literarios](https://github.com/editio/premios-literarios) y Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464417.svg)](https://doi.org/10.5281/zenodo.6464417)
-
+El set de datos completo (+ listas de nodos y aristas) está en [editio/premios-literarios](https://github.com/editio/premios-literarios) y Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464417.svg)](https://doi.org/10.5281/zenodo.6464417)
 
 # Prácticas paso a paso
  
