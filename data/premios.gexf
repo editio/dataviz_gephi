@@ -1,0 +1,770 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2022-04-17">
+    <creator>Gephi 0.9.3</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="att1" title="sexlabel" type="string"/>
+      <attribute id="att2" title="type" type="boolean"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="mmnt-edgetype" title="MMNT-EdgeType" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="1" label="Premio Goncourt">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="2" label="Premio Nobel de Literatura">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="3" label="Premio Miguel de Cervantes">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="4" label="Premio O. Henry">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="5" label="Premio Pulitzer">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="6" label="Premio de Ficción Femenina">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="7" label="Premio Nadal">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="8" label="Premio Camões">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="9" label="Gran Premio de Novela de la Academia Francesa">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="10" label="Premio Biblioteca Breve">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="11" label="Premio de la Paz del Comercio Librero Alemán">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="12" label="Premio Strega">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="13" label="Premio Nacional del Libro de Ficción">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="14" label="Premio Loewe">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="15" label="Premio Herralde">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="16" label="Premio Ojo Crítico">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="17" label="Premio Adonáis de Poesía">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="18" label="Premio Lazarillo">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="19" label="Premio Hans Christian Andersen">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="20" label="Premio Booker">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="21" label="Premio Alfaguara de Novela">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="22" label="Premio literario Nike">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="23" label="Premio Hiperión">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="24" label="Premio Nacional de Narrativa">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="25" label="Premio Nacional de Literatura Infantil y Juvenil">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="26" label="Premio Planeta">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="27" label="Premio Nacional de Poesía">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="28" label="Premio Princesa de Asturias de las Letras">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="29" label="Premio de la Crítica Española">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="30" label="Premio Café Gijón">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="31" label="Premio Castilla y León de las Letras">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="32" label="Premio Anagrama">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="33" label="Premio El Barco de Vapor">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="34" label="Premio Iberoamericano de Poesía Pablo Neruda">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+      <node id="35" label="Premio Dulce Chacón de Narrativa Española">
+        <attvalues>
+          <attvalue for="att2" value="false"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="1553" source="1" target="2" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1554" source="1" target="9" label="false-false" weight="9.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1555" source="1" target="28" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1556" source="2" target="3" label="false-false" weight="3.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1557" source="2" target="4" label="false-false" weight="3.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1558" source="2" target="8" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1559" source="2" target="9" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1560" source="2" target="10" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1561" source="2" target="11" label="false-false" weight="6.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1562" source="2" target="13" label="false-false" weight="3.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1563" source="2" target="20" label="false-false" weight="5.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1564" source="2" target="22" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1565" source="2" target="24" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1566" source="2" target="26" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1567" source="2" target="28" label="false-false" weight="4.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1568" source="2" target="29" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1569" source="3" target="7" label="false-false" weight="4.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1570" source="3" target="10" label="false-false" weight="4.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1571" source="3" target="11" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1572" source="3" target="17" label="false-false" weight="3.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1573" source="3" target="21" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1574" source="3" target="24" label="false-false" weight="5.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1575" source="3" target="25" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1576" source="3" target="26" label="false-false" weight="6.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1577" source="3" target="27" label="false-false" weight="8.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1578" source="3" target="28" label="false-false" weight="9.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1579" source="3" target="29" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1580" source="3" target="30" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1581" source="3" target="31" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1582" source="3" target="34" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1583" source="4" target="6" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1584" source="4" target="13" label="false-false" weight="17.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1585" source="4" target="20" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1586" source="5" target="13" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1587" source="5" target="20" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1588" source="7" target="10" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1589" source="7" target="15" label="false-false" weight="3.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1590" source="7" target="17" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1591" source="7" target="21" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1592" source="7" target="24" label="false-false" weight="9.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1593" source="7" target="25" label="false-false" weight="4.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1594" source="7" target="26" label="false-false" weight="15.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1595" source="7" target="27" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1596" source="7" target="28" label="false-false" weight="3.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1597" source="7" target="29" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1598" source="7" target="30" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1599" source="7" target="31" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1600" source="7" target="33" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1601" source="9" target="11" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1602" source="10" target="11" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1603" source="10" target="16" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1604" source="10" target="24" label="false-false" weight="5.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1605" source="10" target="26" label="false-false" weight="4.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1606" source="10" target="27" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1607" source="10" target="28" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1608" source="10" target="29" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1609" source="11" target="12" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1610" source="11" target="13" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1611" source="11" target="19" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1612" source="11" target="20" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1613" source="11" target="26" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1614" source="11" target="28" label="false-false" weight="5.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1615" source="11" target="34" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1616" source="12" target="28" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1617" source="13" target="28" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1618" source="14" target="16" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1619" source="14" target="17" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1620" source="14" target="23" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1621" source="14" target="27" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1622" source="14" target="29" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1623" source="15" target="16" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1624" source="15" target="24" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1625" source="15" target="26" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1626" source="15" target="29" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1627" source="16" target="17" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1628" source="16" target="23" label="false-false" weight="4.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1629" source="16" target="24" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1630" source="16" target="26" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1631" source="17" target="25" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1632" source="17" target="27" label="false-false" weight="14.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1633" source="17" target="28" label="false-false" weight="3.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1634" source="17" target="29" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1635" source="17" target="30" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1636" source="17" target="31" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1637" source="18" target="25" label="false-false" weight="5.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1638" source="18" target="33" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1639" source="20" target="28" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1640" source="21" target="23" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1641" source="21" target="26" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1642" source="21" target="28" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1643" source="21" target="32" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1644" source="24" target="25" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1645" source="24" target="26" label="false-false" weight="12.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1646" source="24" target="28" label="false-false" weight="6.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1647" source="24" target="29" label="false-false" weight="3.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1648" source="24" target="30" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1649" source="24" target="31" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1650" source="24" target="35" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1651" source="25" target="26" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1652" source="25" target="27" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1653" source="25" target="29" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1654" source="25" target="30" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1655" source="25" target="31" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1656" source="25" target="33" label="false-false" weight="5.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1657" source="26" target="28" label="false-false" weight="4.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1658" source="26" target="29" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1659" source="26" target="30" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1660" source="26" target="32" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1661" source="26" target="33" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1662" source="27" target="28" label="false-false" weight="4.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1663" source="27" target="29" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1664" source="27" target="34" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1665" source="28" target="29" label="false-false">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1666" source="28" target="30" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+      <edge id="1667" source="29" target="31" label="false-false" weight="2.0">
+        <attvalues>
+          <attvalue for="mmnt-edgetype" value="false&lt;--->false"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
