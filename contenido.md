@@ -112,7 +112,7 @@ source,target
 1,2
 1,3
 
-id,	Label
+id,Label
 1,Juan
 2,Hans
 3,Marta
