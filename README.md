@@ -25,11 +25,9 @@
     - [Estilometría de obras teatrales](https://editio.github.io/grafos/teatro)
 - Redes Históricas:
     - [Mapping the archives of the League of Nations ICIC (1919-1927)](https://grandjeanmartin.github.io/intellectual-cooperation)
-<!--  -  [Encyclopedia of Romantic Nationalism](https://ernie.uva.nl/viewer.p/21/56/scenario/177/soc/) -->
 - Redes espaciales
     - [Centro y periferia en la novela bizantina](https://editio.github.io/mapping.literature/spatialnet.html#persiles_core_vs_periphery)
 - Redes Bibliográficas
-    
     - Citación: [Vosviewer](https://tinyurl.com/y36v4cb3)
     - Similitud de contenido: [Connected Papers](https://www.connectedpapers.com/main/3149a915f738f044778e3decdb4278e2bad17808/Gephi%3A-An-Open-Source-Software-for-Exploring-and-Manipulating-Networks/graph)
 
