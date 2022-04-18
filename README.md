@@ -1,6 +1,5 @@
 # **Redes en Humanidades. Gephi**
 
-
 ☞ Esquema del curso
 
 - [Objeto de trabajo](#objeto-de-trabajo-redes-en-humanidades)
@@ -14,7 +13,7 @@
 
 # Objeto de trabajo: redes en humanidades
 
-## _Showcase_:
+## _Showcase_
 
 - Redes de caracteres
     - Coaparición en escena: [Dracor](https://dracor.org)
@@ -230,7 +229,7 @@ Redes de caracteres de coaparición en el teatro. La fuente es <http://www.draco
 - ```autores.gexf```
 - ```premios.gexf```
 
-El set de datos (+ listas de nodos y aristas) está en [editio/premios-literarios](https://github.com/editio/premios-literarios) y Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464417.svg)](https://doi.org/10.5281/zenodo.6464417)
+El set de datos (+ listas de nodos y aristas) está en [editio/premios-literarios](https://github.com/editio/premios-literarios) y Zenodo: José Luis Losada (2022) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464417.svg)](https://doi.org/10.5281/zenodo.6464417)
 
 # Prácticas paso a paso
  
@@ -269,7 +268,7 @@ El set de datos (+ listas de nodos y aristas) está en [editio/premios-literario
 
 ☞ Trabajar con redes más grandes, explorar redes bipartitas.
 
-1. Gephi > open ```autoresypremios.gexf``` | ```Network_bipartita_table2net.gexf```
+1. Gephi > open ```autoresypremios.gexf```.
 2. Layout: Force Atlas 2 > run|stop; > Prevent overlap > run|stop; Zoom
 3. Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Type
 4. Appearance > nodes > size [icono círculos] > Ranking > Choose an attribute > Degree [min. 10 - max. 50] (nº de autores por premio).
@@ -279,18 +278,20 @@ El set de datos (+ listas de nodos y aristas) está en [editio/premios-literario
 
 ☞ Explorar redes simples (premios, autores). 
 
-Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf```. Se pueden crear desde la tabla de datos ([table2net](https://medialab.github.io/table2net/)) o usando una transformación desde la red bipartita (_infra_).
+Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf```. Se pueden crear desde la tabla de datos ([table2net](https://medialab.github.io/table2net/)) o usando una transformación desde la red bipartita (☞ _infra_).
 
 1. Gephi > open ```premios.gexf```
-
-- Modularidad: Community detection > Modularity > run
+  - Layout: Force atlas 2 [Prevent overlap, Disuade Hubs, Scaling = 50]
+  - Appearance > nodes > size [icono círculos] > Ranking > Choose an attribute > Degree [min. 5 - max. 30].
+  - Modularidad: Community detection > Modularity > run
+  - Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Modularity Class.
 
 2. Gephi > open ```autores.gexf```
+  - Layout: Layout: Fruchterman Reingold.
+  - Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > sexlabel.
+  - Appearance > nodes > size [icono círculos] > Ranking > Choose an attribute > Degree [min. 5 - max. 30].
 
-- Appearance: género
-- Filters.
-
-☞ Pasar de un tipo de red a otro. 
+☞ Pasar de un tipo de red a otro (proyeción). 
 
 1. Plugin: multimode networks transformation
   - Load attributes > type:
