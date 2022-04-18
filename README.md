@@ -223,12 +223,14 @@ Redes de caracteres de coaparición en el teatro. La fuente es <http://www.draco
 
 ## Premios literarios
 
-35 premios literarios y 1325 autores premiados: datos obtenidos de Wikidata. Tabla en CSV con 3 variables: premios, premiados y género (masc/fem.) y red bipartita en formato gexf.
+35 premios literarios y 1325 autores premiados: datos obtenidos de Wikidata. Tabla en CSV con 3 variables: premios, premiados y género (masc/fem.), red bipartita y redes simples en formato gexf.
 
 - ```autoresypremios.csv```
 - ```autoresypremios.gexf```
+- ```autores.gexf```
+- ```premios.gexf```
 
-El set de datos completo (+ listas de nodos y aristas) está en [editio/premios-literarios](https://github.com/editio/premios-literarios) y Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464417.svg)](https://doi.org/10.5281/zenodo.6464417)
+El set de datos (+ listas de nodos y aristas) está en [editio/premios-literarios](https://github.com/editio/premios-literarios) y Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464417.svg)](https://doi.org/10.5281/zenodo.6464417)
 
 # Prácticas paso a paso
  
