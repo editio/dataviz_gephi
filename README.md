@@ -193,7 +193,7 @@ Flujo de trabajo: del dato a la visualización.
 
 Gephi acaba de ser actualizado a la versión 0.9.4 (last release: 16/04/2022). Se puede descargar desde su página <https://gephi.org>.
 
-Una de las ventajas de la nueva versión 0.9.3 es que viene ya con Java (lenguaje de programación y entorno de ejecución para programas como Gephi). Más sobre la instalación en <https://gephi.org/users/install/>
+Una de las ventajas de la nueva versión es que viene ya con Java (lenguaje de programación y entorno de ejecución para programas como Gephi). Más sobre la instalación en <https://gephi.org/users/install/>
 
 ## Interfaz: Panel _Overview_
 
