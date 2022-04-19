@@ -278,7 +278,8 @@ Red de estilometría de obras teatrales del Siglo de Oro. Los nodos representan 
 - Layout: Force Atlas 2 > run|stop; > Prevent overlap > run|stop; Zoom
 - Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Type
 - Appearance > nodes > size [icono círculos] > Ranking > Choose an attribute > Degree [min. 10 - max. 50] (nº de autores por premio).
-- Nodes Labels: Show node Labels; More settings > Labels > Hide non-selected.  
+- Nodes Labels: Show node Labels; More settings > Labels > Hide non-selected. 
+- [reset colors] > Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > sexlabel. 
 
 ## Red de premios y premiados (2)
 
@@ -289,7 +290,7 @@ Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf
 1. Gephi > open ```premios.gexf```
   - Layout: Force atlas 2 [Prevent overlap, Disuade Hubs, Scaling = 50]
   - Appearance > nodes > size [icono círculos] > Ranking > Choose an attribute > Degree [min. 5 - max. 30].
-  - Modularidad: Community detection > Modularity > run
+  - Modularidad: Community detection > Modularity > run.
   - Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Modularity Class.
 
   - Comprobar centralidad:
@@ -304,6 +305,8 @@ Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf
 ☞ Pasar de un tipo de red a otro (proyeción). 
 
 1. Plugin: multimode networks transformation.
+  
+  - Red bipartita.
   - Load attributes > type:
     - Premio > Autor / Autor > Premio (Red simple de premios)
     - Autor > Premio / Premio > Autor (Red simple de autores)
