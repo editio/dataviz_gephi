@@ -15,23 +15,24 @@
 
 ## _Showcase_
 
-- Redes de caracteres
+- Redes de caracteres:
     - Coaparición en escena: [Dracor](https://dracor.org)
     - Coaparición en novelas: [_Les Miserables_](https://bost.ocks.org/mike/miserables/)
     - Dinámicas: [Visualising the dynamics of character networks](https://maladesimaginaires.github.io/intnetviz/)
     - Paratextos: [Proyecto Bieses](https://www.bieses.net/editorial.html)
-- Redes Textuales
+- Redes Textuales:
     - [Estilometría de obras teatrales](https://editio.github.io/grafos/teatro)
 - Redes Históricas:
     - [Mapping the archives of the League of Nations ICIC (1919-1927)](https://grandjeanmartin.github.io/intellectual-cooperation)
-- Redes espaciales
+- Redes espaciales:
     - [Centro y periferia en la novela bizantina](https://editio.github.io/mapping.literature/spatialnet.html#persiles_core_vs_periphery)
-- Redes Bibliográficas
+- Redes Bibliográficas:
     - Citación: [Vosviewer](https://tinyurl.com/y36v4cb3)
     - Similitud de contenido: [Connected Papers](https://www.connectedpapers.com/main/3149a915f738f044778e3decdb4278e2bad17808/Gephi%3A-An-Open-Source-Software-for-Exploring-and-Manipulating-Networks/graph)
-
-- Redes culturales
+- Redes culturales:
     - [Premios y premiados](https://w.wiki/52Ju) 
+
+
 
 # Redes
 
@@ -163,8 +164,6 @@ Red bipartita
 ![](images/network_layouts.png)
 
 - Clásicos en Gephi: _Force Atlas_, _Fruchterman Reingold_,...
-
-![](images/añadir!)
 
 # Métricas
 
