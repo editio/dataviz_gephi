@@ -222,7 +222,7 @@ Redes de caracteres de coaparición en el teatro. La fuente es <http://www.draco
 
 ## Premios literarios
 
-35 premios literarios y 1325 autores premiados: datos obtenidos de Wikidata. Tabla en CSV con 3 variables: premios, premiados y género (masc/fem.), red bipartita y redes simples en formato gexf.
+35 premios literarios y 1325 autores premiados: datos obtenidos de Wikidata. Tabla en CSV con 3 variables: premios, premiados y género (masc./fem.); red bipartita y redes simples en formato gexf.
 
 - ```autoresypremios.csv```
 - ```autoresypremios.gexf```
@@ -245,18 +245,18 @@ Red de estilometría de obras teatrales del Siglo de Oro. Los nodos representan 
 
 1. Dracor > tools > https://ezlinavis.dracor.org > Examples > Calderón > descarga _edge list_.
 2. Gephi > Import spreadsheet (CSV) > next > finish.
-3. Layout: Fruchterman Reingold.
-4. Tamaño de nodos según el _degree_.
-5. Etiquetas de los nodos (_label_): "copy data to other column" (_Data laboratory_). Alternativa: "select attributes to display as labels" (Overview).
-5. Medidas de centralidad (Betweenness): Segismundo frente a Clarín (statistics > Network Diameter).
+- Layout: Fruchterman Reingold.
+- Tamaño de nodos según el _degree_.
+- Etiquetas de los nodos (_label_): "copy data to other column" (_Data laboratory_). Alternativa: "select attributes to display as labels" (Overview).
+- Medidas de centralidad (Betweenness): Segismundo frente a Clarín (statistics > Network Diameter).
 
 ☞ Conocer el archivo en formato gexf, abrir en Gephi, atributos de los nodos (masculino/femenino).
 
 1. Dracor > corpora > [Spanish Drama Corpus](https://dracor.org/span) > Valle Inclán, _Luces de bohemia_ > Downloads > Archivo en gexf.
 2. Gephi > open > [sin cambios] > ok.
-3. Exploración de datos: _label_, _gender_ (_Data laboratory_).
-3. Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > gender
-4. Layout: Force Atlas 2.
+- Exploración de datos: _label_, _gender_ (_Data laboratory_).
+- Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > gender
+- Layout: Force Atlas 2.
 
 ## De los datos a la red: premios y premiados
 
@@ -275,16 +275,16 @@ Red de estilometría de obras teatrales del Siglo de Oro. Los nodos representan 
 ☞ Explorar redes bipartitas.
 
 1. Gephi > open ```autoresypremios.gexf```.
-2. Layout: Force Atlas 2 > run|stop; > Prevent overlap > run|stop; Zoom
-3. Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Type
-4. Appearance > nodes > size [icono círculos] > Ranking > Choose an attribute > Degree [min. 10 - max. 50] (nº de autores por premio).
-5. Nodes Labels: Show node Labels; More settings > Labels > Hide non-selected.  
+- Layout: Force Atlas 2 > run|stop; > Prevent overlap > run|stop; Zoom
+- Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Type
+- Appearance > nodes > size [icono círculos] > Ranking > Choose an attribute > Degree [min. 10 - max. 50] (nº de autores por premio).
+- Nodes Labels: Show node Labels; More settings > Labels > Hide non-selected.  
 
 ## Red de premios y premiados (2)
 
 ☞ Explorar redes simples (premios, autores). 
 
-Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf```. Se pueden asimismo crear desde la tabla de datos ([table2net](https://medialab.github.io/table2net/)) o usando una transformación desde la red bipartita (☞ _infra_).
+Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf```. Se pueden asimismo crear desde la tabla de datos ([table2net](https://medialab.github.io/table2net/)) o usando una transformación desde la red bipartita (☞ _vide infra_).
 
 1. Gephi > open ```premios.gexf```
   - Layout: Force atlas 2 [Prevent overlap, Disuade Hubs, Scaling = 50]
@@ -299,26 +299,26 @@ Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf
 
 ☞ Pasar de un tipo de red a otro (proyeción). 
 
-1. Plugin: multimode networks transformation
+1. Plugin: multimode networks transformation.
   - Load attributes > type:
     - Premio > Autor / Autor > Premio (Red simple de premios)
     - Autor > Premio / Premio > Autor (Red simple de autores)
-  - Remove nodes, edges
-  - Run
+  - Remove nodes, edges.
+  - Run.
 
-## Estilometría
+## Estilometría
 
 ☞ Explorar redes textuales
 
-1. Gephi > open ```estilometria_teatro.gexf```
-- Layout: Force atlas 2 [Prevent overlap, Disuade Hubs, Scaling = 200]
+1. Gephi > open ```estilometria_teatro.gexf```.
+- Layout: Force atlas 2 [Prevent overlap, Disuade Hubs, Scaling = 200].
 - Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Classes (autores) > Palette > Generate [Limit number of colors: unchecked] > generate.
 - Appearance > nodes > size [icono círculos] > Unique > size = 20.
 - Nodes Labels: Show node Labels; More settings > Labels > Hide non-selected.  
 
-Contrartar con la modularidad:
+Contrastar con la modularidad:
 
-- Modularidad: Community detection > Modularity > run
+- Modularidad: Community detection > Modularity > run.
 - Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Modularity Class.
 
 ## Formatos de publicación
