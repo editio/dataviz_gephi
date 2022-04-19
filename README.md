@@ -246,9 +246,9 @@ Red de estilometría de obras teatrales del Siglo de Oro. Los nodos representan 
 1. Dracor > tools > https://ezlinavis.dracor.org > Examples > Calderón > descarga _edge list_.
 2. Gephi > Import spreadsheet (CSV) > next > finish.
 - Layout: Fruchterman Reingold.
-- Tamaño de nodos según el _degree_.
-- Etiquetas de los nodos (_label_): "copy data to other column" (_Data laboratory_). Alternativa: "select attributes to display as labels" (Overview).
-- Medidas de centralidad (Betweenness): Segismundo frente a Clarín (statistics > Network Diameter).
+- Tamaño de nodos según el _degree_: Appearance > nodes > size [icono círculos] > Ranking > Choose an attribute > Degree [min. 10 - max. 50].
+- Etiquetas de los nodos (_label_): "copy data to other column" (_Data laboratory_). Alternativa: "select attributes to display as labels" (_Overview_).
+- Medidas de centralidad (Betweenness/Eigenvector): Segismundo frente a Clarín (statistics > Network Diameter; Eigenvector Centrality).
 
 ☞ Conocer el archivo en formato gexf, abrir en Gephi, atributos de los nodos (masculino/femenino).
 
@@ -256,7 +256,7 @@ Red de estilometría de obras teatrales del Siglo de Oro. Los nodos representan 
 2. Gephi > open > [sin cambios] > ok.
 - Exploración de datos: _label_, _gender_ (_Data laboratory_).
 - Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > gender
-- Layout: Force Atlas 2.
+- Layout: Force Atlas 2 [Prevent overlap, Disuade Hubs, Scaling = 40] > run|stop.
 
 ## De los datos a la red: premios y premiados
 
