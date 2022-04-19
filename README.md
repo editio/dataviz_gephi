@@ -191,7 +191,7 @@ Flujo de trabajo: del dato a la visualización.
 
 ## Gephi. Open Graph Viz Platform
 
-Gephi acaba de ser actualizado a la versión 0.9.3 (last release: 11/03/2022). Se puede descargar desde su página <https://gephi.org>.
+Gephi acaba de ser actualizado a la versión 0.9.4 (last release: 16/04/2022). Se puede descargar desde su página <https://gephi.org>.
 
 Una de las ventajas de la nueva versión 0.9.3 es que viene ya con Java (lenguaje de programación y entorno de ejecución para programas como Gephi). Más sobre la instalación en <https://gephi.org/users/install/>
 
@@ -291,6 +291,10 @@ Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf
   - Appearance > nodes > size [icono círculos] > Ranking > Choose an attribute > Degree [min. 5 - max. 30].
   - Modularidad: Community detection > Modularity > run
   - Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Modularity Class.
+
+  - Comprobar centralidad:
+      - statistics > eigenvector Centrality.
+      - Appearance > nodes > size [icono círculos] > Ranking > Choose an attribute > eigenvector Centrality.
 
 2. Gephi > open ```autores.gexf```
   - Layout: Layout: Fruchterman Reingold.
