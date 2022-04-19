@@ -231,6 +231,12 @@ Redes de caracteres de coaparición en el teatro. La fuente es <http://www.draco
 
 El set de datos (+ listas de nodos y aristas) está en [editio/premios-literarios](https://github.com/editio/premios-literarios) y Zenodo: José Luis Losada (2022) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464417.svg)](https://doi.org/10.5281/zenodo.6464417)
 
+## Estilometría
+
+Red de estilometría de obras teatrales del Siglo de Oro. Los nodos representan obras teatrales unidos según su cercanía estilística. Análisis realizado usando el árbol de consenso (2000-5000 MFW) y la distancia Delta con el paquete de R, stylo (Eder, Rybicki y Kestemont, 2016), sobre un corpus de aproximadamente 700 obras y 50 autores. Visualización interactiva en: [Estilometría de obras teatrales](https://editio.github.io/grafos/teatro)
+
+- ```estilometria_teatro.gexf```
+
 # Prácticas paso a paso
  
 ## Red de caracteres
@@ -266,7 +272,7 @@ El set de datos (+ listas de nodos y aristas) está en [editio/premios-literario
 
 ## Red de premios y premiados (1)
 
-☞ Trabajar con redes más grandes, explorar redes bipartitas.
+☞ Explorar redes bipartitas.
 
 1. Gephi > open ```autoresypremios.gexf```.
 2. Layout: Force Atlas 2 > run|stop; > Prevent overlap > run|stop; Zoom
@@ -278,7 +284,7 @@ El set de datos (+ listas de nodos y aristas) está en [editio/premios-literario
 
 ☞ Explorar redes simples (premios, autores). 
 
-Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf```. Se pueden crear desde la tabla de datos ([table2net](https://medialab.github.io/table2net/)) o usando una transformación desde la red bipartita (☞ _infra_).
+Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf```. Se pueden asimismo crear desde la tabla de datos ([table2net](https://medialab.github.io/table2net/)) o usando una transformación desde la red bipartita (☞ _infra_).
 
 1. Gephi > open ```premios.gexf```
   - Layout: Force atlas 2 [Prevent overlap, Disuade Hubs, Scaling = 50]
@@ -300,6 +306,20 @@ Los archivos ya están listos en ```/data/premios.gexf```; ```/data/autores.gexf
   - Remove nodes, edges
   - Run
 
+## Estilometría
+
+☞ Explorar redes textuales
+
+1. Gephi > open ```estilometria_teatro.gexf```
+- Layout: Force atlas 2 [Prevent overlap, Disuade Hubs, Scaling = 200]
+- Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Classes (autores) > Palette > Generate [Limit number of colors: unchecked] > generate.
+- Appearance > nodes > size [icono círculos] > Unique > size = 20.
+- Nodes Labels: Show node Labels; More settings > Labels > Hide non-selected.  
+
+Contrartar con la modularidad:
+
+- Modularidad: Community detection > Modularity > run
+- Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Modularity Class.
 
 ## Formatos de publicación
 
