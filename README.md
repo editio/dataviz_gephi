@@ -121,6 +121,7 @@ id,Label
 3,Marta
 4,Elena
 ```
+Es recomendable guardar los datos estructurados en CSV, aunque Gephi acepta tablas en Excel.
 
 - ```gexf``` (XML)
 
