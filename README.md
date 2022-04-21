@@ -328,6 +328,15 @@ Contrastar con la modularidad:
 - Modularidad: Community detection > Modularity > run.
 - Appearance > nodes > color [icono paleta] > Partition > Choose an attribute > Modularity Class.
 
+## Red espacial
+
+☞ Explorar redes espaciales
+
+1. Gephi > open ```homero_odisea.gexf```.
+2. Plugin: Geo Layout
+
+
+
 ## Formatos de publicación
 
 ☞ Formas de representación estática y dinámica de los grafos.
