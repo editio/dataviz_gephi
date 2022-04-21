@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd" version="1.3">
+  <meta lastmodifieddate="2022-04-04">
+    <creator>NodosChile</creator>
+    <description>A GEXF file written in R with "rgexf"</description>
+    <keywords>GEXF, NodosChile, R, rgexf, Gephi</keywords>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <attributes class="node" mode="static">
+      <attribute id="att1" title="freq" type="integer"/>
+      <attribute id="att2" title="degree" type="integer"/>
+      <attribute id="att3" title="lat" type="float"/>
+      <attribute id="att4" title="lon" type="float"/>
+      <attribute id="att5" title="ec" type="float"/>
+      <attribute id="att6" title="quant_ec" type="integer"/>
+    </attributes>
+    <nodes>
+      <node id="1" label="Egypt">
+        <attvalues>
+          <attvalue for="att1" value="10"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="27.1"/>
+          <attvalue for="att4" value="30.7"/>
+          <attvalue for="att5" value="0.5562735"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-76.5603301450027" y="-66.7517403704916" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="2" label="Ethiopia">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="13.01"/>
+          <attvalue for="att4" value="35.01"/>
+          <attvalue for="att5" value="1"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-74.6105536085805" y="1.1963565509741" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="3" label="Libya">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="32.01"/>
+          <attvalue for="att4" value="10.01"/>
+          <attvalue for="att5" value="0.8004237"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-67.3716085369082" y="6.57662059348627" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="4" label="Sicily">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="37.6"/>
+          <attvalue for="att4" value="14.5"/>
+          <attvalue for="att5" value="0.1286685"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-6.66744361918671" y="-48.8552521511328" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="5" label="Aiolian Islands">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="38.5"/>
+          <attvalue for="att4" value="15.05"/>
+          <attvalue for="att5" value="0.01916214"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="95.1587035555157" y="16.1541173582218" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="6" label="Charybdis">
+        <attvalues>
+          <attvalue for="att1" value="6"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="38.248"/>
+          <attvalue for="att4" value="15.606"/>
+          <attvalue for="att5" value="0.0178711"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-42.3319782619842" y="25.5235172568667" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="7" label="Asteris">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="38.135"/>
+          <attvalue for="att4" value="20.423"/>
+          <attvalue for="att5" value="0.003764302"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="55.8438684806759" y="24.9246204318505" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="8" label="Delphic Oracle">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="38.4826"/>
+          <attvalue for="att4" value="22.5011"/>
+          <attvalue for="att5" value="0.00000002238994"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="100" y="-32.382576590987" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="9" label="Achaia">
+        <attvalues>
+          <attvalue for="att1" value="50"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="38.2"/>
+          <attvalue for="att4" value="21.9"/>
+          <attvalue for="att5" value="0.00000005462131"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="62.6938481242182" y="81.3943782949542" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="10" label="Dolicha">
+        <attvalues>
+          <attvalue for="att1" value="12"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="38.36"/>
+          <attvalue for="att4" value="20.72"/>
+          <attvalue for="att5" value="0.00003682078"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-64.2807355682224" y="-73.739362744152" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="11" label="Aitolia">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="38.6"/>
+          <attvalue for="att4" value="21.5"/>
+          <attvalue for="att5" value="0.000186927"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-41.4578081484017" y="-24.6320916222554" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="12" label="Doris">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="38.7"/>
+          <attvalue for="att4" value="22.4"/>
+          <attvalue for="att5" value="0.000004999924"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-58.7791213284535" y="52.9167509357963" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="13" label="Elis">
+        <attvalues>
+          <attvalue for="att1" value="5"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="37.89"/>
+          <attvalue for="att4" value="21.374"/>
+          <attvalue for="att5" value="0.00004081196"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-75.1027891461535" y="-35.9152120096648" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="14" label="Alpheios">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="37.6125"/>
+          <attvalue for="att4" value="21.4517"/>
+          <attvalue for="att5" value="0.001530123"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="84.1606854379185" y="51.3647352086029" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="15" label="Erymanthos">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="37.9667"/>
+          <attvalue for="att4" value="21.8333"/>
+          <attvalue for="att5" value="0.00000004749596"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="23.6265947614897" y="-57.9708233952189" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="16" label="Aipion">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="37.5659"/>
+          <attvalue for="att4" value="21.7847"/>
+          <attvalue for="att5" value="0.00000003437782"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="96.0148674279708" y="-28.6038296560781" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="17" label="Homeric Ithaca?">
+        <attvalues>
+          <attvalue for="att1" value="91"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="38.453"/>
+          <attvalue for="att4" value="20.643"/>
+          <attvalue for="att5" value="0.000004176011"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-78.7785312562608" y="41.1744735964043" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="18" label="HypoChalkis">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="38.3535"/>
+          <attvalue for="att4" value="21.6314"/>
+          <attvalue for="att5" value="0.0000008194397"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-54.2838030102213" y="64.2578563168199" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="19" label="Kaukones">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="38"/>
+          <attvalue for="att4" value="21.5"/>
+          <attvalue for="att5" value="0.000002181832"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="13.8262198179111" y="-30.977160179139" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="20" label="Kephallania">
+        <attvalues>
+          <attvalue for="att1" value="4"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="38.2"/>
+          <attvalue for="att4" value="20.59"/>
+          <attvalue for="att5" value="0.00004178543"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="25.4920058361704" y="72.4766202569932" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="21" label="Koryne?">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="37.575"/>
+          <attvalue for="att4" value="21.62"/>
+          <attvalue for="att5" value="0.000004988439"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-17.7387464891764" y="-79.7673686817384" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="22" label="Kyllene">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="37.9397"/>
+          <attvalue for="att4" value="22.3969"/>
+          <attvalue for="att5" value="0.0000004849926"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="50.0251782239216" y="93.4898370535683" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="23" label="Argos">
+        <attvalues>
+          <attvalue for="att1" value="29"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="37.6316"/>
+          <attvalue for="att4" value="22.7195"/>
+          <attvalue for="att5" value="0.00007436265"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="9.86601010452655" y="-9.31762762678399" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="24" label="Leukas">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="38.81"/>
+          <attvalue for="att4" value="20.717"/>
+          <attvalue for="att5" value="0.0001249986"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="79.742236772776" y="29.1144230954272" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="25" label="Messene">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="37.1779"/>
+          <attvalue for="att4" value="21.9195"/>
+          <attvalue for="att5" value="0.0000006586112"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-28.9596202814621" y="4.11123650860547" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="26" label="Messenia">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="37.2"/>
+          <attvalue for="att4" value="21.8"/>
+          <attvalue for="att5" value="0.0000004730237"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="16.0430409638422" y="5.3356445283718" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="27" label="Mycenae">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="37.7308"/>
+          <attvalue for="att4" value="22.7561"/>
+          <attvalue for="att5" value="0.0000001915758"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-71.8523390680072" y="-89.9263025643055" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="28" label="Nerikos?">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="38.7955"/>
+          <attvalue for="att4" value="20.734"/>
+          <attvalue for="att5" value="0.0001176203"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="80.228734309058" y="-99.6498425308427" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="29" label="Neriton?">
+        <attvalues>
+          <attvalue for="att1" value="4"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="38.34"/>
+          <attvalue for="att4" value="20.43"/>
+          <attvalue for="att5" value="0.0009733479"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-35.8833702923741" y="-19.3653668141351" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="30" label="Nestor Palace/Pylos">
+        <attvalues>
+          <attvalue for="att1" value="42"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="37.027"/>
+          <attvalue for="att4" value="21.695"/>
+          <attvalue for="att5" value="0.0001527089"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="34.7360615635388" y="78.6905027059854" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="31" label="Gerenia?">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="36.934"/>
+          <attvalue for="att4" value="22.195"/>
+          <attvalue for="att5" value="0.003820314"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-3.8457303452897" y="-94.7391503340047" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="32" label="Olympian Zeus">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="37.6378"/>
+          <attvalue for="att4" value="21.63"/>
+          <attvalue for="att5" value="0.000004167933"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-92.5162616819382" y="-24.2756396582778" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="33" label="Panopeos/Phanotis">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="38.495"/>
+          <attvalue for="att4" value="22.795"/>
+          <attvalue for="att5" value="0.0000001761134"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="37.5653823809246" y="40.4263777716708" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="34" label="Parnassus">
+        <attvalues>
+          <attvalue for="att1" value="7"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="38.5354"/>
+          <attvalue for="att4" value="22.6219"/>
+          <attvalue for="att5" value="0.00000003890845"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="33.1094982061886" y="-24.8114864252857" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="35" label="Peloponnese">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="37.54"/>
+          <attvalue for="att4" value="22.15"/>
+          <attvalue for="att5" value="0.000001110627"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-63.5415108103159" y="61.9945399050835" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="36" label="Pheia">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="37.6642"/>
+          <attvalue for="att4" value="21.3136"/>
+          <attvalue for="att5" value="0.001791553"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="86.3754380979869" y="63.6972312712356" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="37" label="Pherai">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="37.046"/>
+          <attvalue for="att4" value="22.113"/>
+          <attvalue for="att5" value="0.00001789451"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-82.1813697291471" y="67.7263026651165" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="38" label="Phylake?">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="37.337"/>
+          <attvalue for="att4" value="22.49"/>
+          <attvalue for="att5" value="0.00006398785"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="43.2505737033811" y="-43.4181441587148" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="39" label="Romanos T.">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="9"/>
+          <attvalue for="att3" value="36.9953"/>
+          <attvalue for="att4" value="21.6598"/>
+          <attvalue for="att5" value="0.1636696"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-28.4349658879309" y="49.5089722195619" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="40" label="Same">
+        <attvalues>
+          <attvalue for="att1" value="8"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="38.2546"/>
+          <attvalue for="att4" value="20.6589"/>
+          <attvalue for="att5" value="0.00003328083"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="28.0779520009577" y="48.8066371416387" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="41" label="Sparta">
+        <attvalues>
+          <attvalue for="att1" value="17"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="37.0821"/>
+          <attvalue for="att4" value="22.4237"/>
+          <attvalue for="att5" value="0.00006102496"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="49.8370673669828" y="-10.502666520745" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="42" label="Styx">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="37.98"/>
+          <attvalue for="att4" value="22.21"/>
+          <attvalue for="att5" value="0.000000009119602"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-27.7165504109827" y="-62.3936583249073" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="43" label="Taphos">
+        <attvalues>
+          <attvalue for="att1" value="6"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="38.652"/>
+          <attvalue for="att4" value="20.77"/>
+          <attvalue for="att5" value="0.000002673663"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="14.8735359139114" y="100" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="44" label="Taygetos">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="36.9535"/>
+          <attvalue for="att4" value="22.35"/>
+          <attvalue for="att5" value="0.002384466"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="57.9974267674579" y="60.00476819651" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="45" label="Zakynthos">
+        <attvalues>
+          <attvalue for="att1" value="5"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="37.7872"/>
+          <attvalue for="att4" value="20.8921"/>
+          <attvalue for="att5" value="0.003982113"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-58.987484914609" y="-54.067961431553" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="46" label="Athens">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="37.9718"/>
+          <attvalue for="att4" value="23.7279"/>
+          <attvalue for="att5" value="0.000001886928"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="23.1098294888962" y="49.0263874492369" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="47" label="Aigai">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="38.586"/>
+          <attvalue for="att4" value="23.555"/>
+          <attvalue for="att5" value="0.00009467579"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-41.2099266529964" y="79.6413581806887" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="48" label="Crete">
+        <attvalues>
+          <attvalue for="att1" value="12"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="35.2052"/>
+          <attvalue for="att4" value="25.1836"/>
+          <attvalue for="att5" value="0.02228724"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-62.7441477141695" y="68.0896526667817" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="49" label="Amnisos">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="35.327"/>
+          <attvalue for="att4" value="25.196"/>
+          <attvalue for="att5" value="0.003824971"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-16.9509598562184" y="-42.364632684262" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="50" label="Aperlai">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="36.159"/>
+          <attvalue for="att4" value="29.783"/>
+          <attvalue for="att5" value="0.1650534"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-77.6563905989943" y="-86.2254327364449" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="51" label="Delian Apollo ">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="37.4004"/>
+          <attvalue for="att4" value="25.2666"/>
+          <attvalue for="att5" value="0.00005883465"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="26.8662888169132" y="-85.8459615360175" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="52" label="Chios">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="38.3764"/>
+          <attvalue for="att4" value="26.1342"/>
+          <attvalue for="att5" value="0.0001359508"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="62.1685378486091" y="36.7575707334773" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="53" label="Delos">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="3"/>
+          <attvalue for="att3" value="37.398"/>
+          <attvalue for="att4" value="25.267"/>
+          <attvalue for="att5" value="0.0000515483"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="61.3832234373536" y="-39.6453379355537" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="54" label="Elysian Fields">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="37.9639"/>
+          <attvalue for="att4" value="23.736"/>
+          <attvalue for="att5" value="0.000002119925"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="83.7264159433725" y="13.0169804248935" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="55" label="Euboia">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="38.53"/>
+          <attvalue for="att4" value="23.87"/>
+          <attvalue for="att5" value="0.0001199585"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-83.9881145432451" y="-74.3199921462709" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="56" label="Gortyna">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="35.0594"/>
+          <attvalue for="att4" value="24.95"/>
+          <attvalue for="att5" value="0.0111998"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="55.7648856760879" y="91.460174449389" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="57" label="Iasos">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="37.2795"/>
+          <attvalue for="att4" value="27.5846"/>
+          <attvalue for="att5" value="0.01581044"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="24.2051950550226" y="-26.3544258616906" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="58" label="Knossos">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="35.2978"/>
+          <attvalue for="att4" value="25.1631"/>
+          <attvalue for="att5" value="0.004572865"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-35.6152354546018" y="70.0751834190796" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="59" label="Kydonia">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="35.5158"/>
+          <attvalue for="att4" value="24.0187"/>
+          <attvalue for="att5" value="0.1722149"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="75.6423518628888" y="-84.9011312860699" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="60" label="Kythera">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="36.2295"/>
+          <attvalue for="att4" value="23.0291"/>
+          <attvalue for="att5" value="0.1634685"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="28.4900491815978" y="42.3842189163508" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="61" label="Malea">
+        <attvalues>
+          <attvalue for="att1" value="4"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="36.436"/>
+          <attvalue for="att4" value="23.198"/>
+          <attvalue for="att5" value="0.003858055"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-54.2040805578017" y="-23.6537426346778" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="62" label="Marathon">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="38.1466"/>
+          <attvalue for="att4" value="23.9701"/>
+          <attvalue for="att5" value="0.000006463643"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="10.3369666409044" y="15.6677284632503" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="63" label="Geraistos">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="37.977"/>
+          <attvalue for="att4" value="24.539"/>
+          <attvalue for="att5" value="0.00006168372"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="23.2283966587853" y="75.5322827296922" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="64" label="Mimas">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="38.5885"/>
+          <attvalue for="att4" value="26.4695"/>
+          <attvalue for="att5" value="0.0004577568"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-71.1422332387195" y="-19.534687704408" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="65" label="Naxos">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="37.1059"/>
+          <attvalue for="att4" value="25.377"/>
+          <attvalue for="att5" value="0.005803873"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="31.7184833463106" y="-42.5981964989292" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="66" label="Orchomenos">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="38.4956"/>
+          <attvalue for="att4" value="22.9641"/>
+          <attvalue for="att5" value="0.0000009576851"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="26.6574708392763" y="64.5563960845814" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="67" label="Phaistos">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="35.0512"/>
+          <attvalue for="att4" value="24.8138"/>
+          <attvalue for="att5" value="0.2647994"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-27.5603754362873" y="81.9325407372764" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="68" label="Pharos">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="31.213"/>
+          <attvalue for="att4" value="29.8856"/>
+          <attvalue for="att5" value="0.1181489"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="55.5383796822899" y="84.3836998515335" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="69" label="Psyra">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="38.541"/>
+          <attvalue for="att4" value="25.5626"/>
+          <attvalue for="att5" value="0.0002733398"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-39.1901243991176" y="-100" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="70" label="Samos">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="37.695"/>
+          <attvalue for="att4" value="26.935"/>
+          <attvalue for="att5" value="0.0003212908"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-26.5003643007293" y="-49.2869623109592" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="71" label="Sounion">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="37.6498"/>
+          <attvalue for="att4" value="24.0247"/>
+          <attvalue for="att5" value="0.000156004"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-88.3831037035003" y="81.3855066494147" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="72" label="Syros">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="37.447"/>
+          <attvalue for="att4" value="24.941"/>
+          <attvalue for="att5" value="0.005436846"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-43.8228237887072" y="-6.90690772701662" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="73" label="Thebes">
+        <attvalues>
+          <attvalue for="att1" value="9"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="38.3191"/>
+          <attvalue for="att4" value="23.3178"/>
+          <attvalue for="att5" value="0.0000005056762"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-67.235893866363" y="-62.2100384383631" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="74" label="Cyprus">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="35"/>
+          <attvalue for="att4" value="33"/>
+          <attvalue for="att5" value="0.1413067"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="81.9821166120097" y="-51.9878002029179" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="75" label="Paphian Aphrodite">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="34.707"/>
+          <attvalue for="att4" value="32.574"/>
+          <attvalue for="att5" value="0.04446919"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-2.62029099634667" y="-74.7415302751078" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="76" label="Phoenicia">
+        <attvalues>
+          <attvalue for="att1" value="4"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="33.5"/>
+          <attvalue for="att4" value="35.4"/>
+          <attvalue for="att5" value="0.5064876"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-6.19295146995664" y="-49.6744573341458" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="77" label="Sidon">
+        <attvalues>
+          <attvalue for="att1" value="4"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="33.56"/>
+          <attvalue for="att4" value="35.371"/>
+          <attvalue for="att5" value="0.1453637"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="74.4152917220772" y="0.893035444433849" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="78" label="Cimmerian Bosphorus">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="45.36"/>
+          <attvalue for="att4" value="36.66"/>
+          <attvalue for="att5" value="0.8089958"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="34.575146230132" y="23.4290596774207" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="79" label="Hellespont">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="40.2"/>
+          <attvalue for="att4" value="26.4"/>
+          <attvalue for="att5" value="0.002670824"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="9.17050130679091" y="-30.7162284637206" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="80" label="Iolkos">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="39.3663"/>
+          <attvalue for="att4" value="22.9689"/>
+          <attvalue for="att5" value="0.00001146218"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="55.988494393582" y="22.3582273824482" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="81" label="Ismaris">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="40.985"/>
+          <attvalue for="att4" value="25.32"/>
+          <attvalue for="att5" value="0.009347637"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="49.1174340321939" y="-3.31336308906432" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="82" label="Lemnos">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="39.93"/>
+          <attvalue for="att4" value="25.21"/>
+          <attvalue for="att5" value="0.008060998"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-32.387208940457" y="55.6337914689014" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="83" label="Lesbos">
+        <attvalues>
+          <attvalue for="att1" value="3"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="39.2075"/>
+          <attvalue for="att4" value="26.2"/>
+          <attvalue for="att5" value="0.000194379"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-85.1426075532532" y="-99.9669916000027" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="84" label="Pelion">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="39.437"/>
+          <attvalue for="att4" value="23.046"/>
+          <attvalue for="att5" value="0.006623337"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="4.94760072780997" y="93.0057022797193" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="85" label="Sintice">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="10"/>
+          <attvalue for="att3" value="41.4"/>
+          <attvalue for="att4" value="23.3"/>
+          <attvalue for="att5" value="0.2231078"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="63.0506696235173" y="-83.8399623378669" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="86" label="Skyros">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="38.907"/>
+          <attvalue for="att4" value="24.568"/>
+          <attvalue for="att5" value="0.0002983437"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-29.4806545417409" y="-79.7509139660191" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="87" label="Tenedos">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="39.8337"/>
+          <attvalue for="att4" value="26.0715"/>
+          <attvalue for="att5" value="0.0002861339"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="52.8102803922838" y="33.3900839362834" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="88" label="Thrace">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="41"/>
+          <attvalue for="att4" value="26.5"/>
+          <attvalue for="att5" value="0.1530951"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="15.1790550396508" y="23.0320217703883" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="89" label="Troy">
+        <attvalues>
+          <attvalue for="att1" value="56"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="39.9575"/>
+          <attvalue for="att4" value="26.2389"/>
+          <attvalue for="att5" value="0.0001983608"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="29.6870377941697" y="-77.4812070670465" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="90" label="Achaea Phthiotis">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="39.2"/>
+          <attvalue for="att4" value="22.5"/>
+          <attvalue for="att5" value="0.000001930823"/>
+          <attvalue for="att6" value="1"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-45.0844772991632" y="-34.2101150697891" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="91" label="Acheron">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="39.2348"/>
+          <attvalue for="att4" value="20.4831"/>
+          <attvalue for="att5" value="0.0004884092"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="74.9436180836374" y="38.6362876727876" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="92" label="Dodona">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="11"/>
+          <attvalue for="att3" value="39.5464"/>
+          <attvalue for="att4" value="20.7878"/>
+          <attvalue for="att5" value="0.0107229"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="41.6130322214308" y="80.7859951328057" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="93" label="Enipeus">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="39.492"/>
+          <attvalue for="att4" value="22.15"/>
+          <attvalue for="att5" value="0.0002150101"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-76.2412672382997" y="-26.8682178514831" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="94" label="Ephyra">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="39.2409"/>
+          <attvalue for="att4" value="20.5321"/>
+          <attvalue for="att5" value="0.00006273078"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-1.23943084748358" y="9.72464137558167" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="95" label="Hypereia">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="39.3842"/>
+          <attvalue for="att4" value="22.7426"/>
+          <attvalue for="att5" value="0.00006245351"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-50.6723392303646" y="73.4918050587131" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="96" label="Kerkyra">
+        <attvalues>
+          <attvalue for="att1" value="4"/>
+          <attvalue for="att2" value="8"/>
+          <attvalue for="att3" value="39.6063"/>
+          <attvalue for="att4" value="19.9156"/>
+          <attvalue for="att5" value="0.04884052"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="50.6034918933076" y="-4.48324633002606" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="97" label="Nekromanteion">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="39.236"/>
+          <attvalue for="att4" value="20.534"/>
+          <attvalue for="att5" value="0.00006268349"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-16.3242243930244" y="-9.10661333764536" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="98" label="Olympus">
+        <attvalues>
+          <attvalue for="att1" value="10"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="40.0856"/>
+          <attvalue for="att4" value="22.3586"/>
+          <attvalue for="att5" value="0.0003044801"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="70.0819534961981" y="10.8689156161977" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="99" label="Ossa">
+        <attvalues>
+          <attvalue for="att1" value="2"/>
+          <attvalue for="att2" value="6"/>
+          <attvalue for="att3" value="39.7969"/>
+          <attvalue for="att4" value="22.6869"/>
+          <attvalue for="att5" value="0.00555892"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="5.36754891974314" y="55.4718467832623" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="100" label="Pelasgiotis">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="39.5"/>
+          <attvalue for="att4" value="22.5"/>
+          <attvalue for="att5" value="0.00003184295"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-17.1376932004312" y="-70.3233402067919" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="101" label="Pieria">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="40.2"/>
+          <attvalue for="att4" value="22.5"/>
+          <attvalue for="att5" value="0.004919511"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-100" y="20.6329408093374" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="102" label="Temesa?">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="5"/>
+          <attvalue for="att3" value="39.035"/>
+          <attvalue for="att4" value="16.159"/>
+          <attvalue for="att5" value="0.02260876"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-64.5270460312581" y="3.93066296405777" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="103" label="Thesprotia">
+        <attvalues>
+          <attvalue for="att1" value="9"/>
+          <attvalue for="att2" value="4"/>
+          <attvalue for="att3" value="39.4"/>
+          <attvalue for="att4" value="20.4"/>
+          <attvalue for="att5" value="0.0004328489"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-80.4413164630844" y="-31.4866576893255" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="104" label="Aiaia/Isle of Circe">
+        <attvalues>
+          <attvalue for="att1" value="6"/>
+          <attvalue for="att2" value="7"/>
+          <attvalue for="att3" value="41.1"/>
+          <attvalue for="att4" value="12.75"/>
+          <attvalue for="att5" value="0.3356833"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="80.5447844313881" y="-49.980666763671" z="0"/>
+        <viz:size value="10"/>
+      </node>
+      <node id="105" label="Sardinia">
+        <attvalues>
+          <attvalue for="att1" value="1"/>
+          <attvalue for="att2" value="3"/>
+          <attvalue for="att3" value="40.2"/>
+          <attvalue for="att4" value="9.2"/>
+          <attvalue for="att5" value="0.122669"/>
+          <attvalue for="att6" value="2"/>
+        </attvalues>
+        <viz:color r="255" g="99" b="71" a="1"/>
+        <viz:position x="-55.8215896672926" y="-21.93341143384" z="0"/>
+        <viz:size value="10"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1" target="2" weight="14.73446"/>
+      <edge id="1" source="2" target="3" weight="31.40064"/>
+      <edge id="2" source="1" target="3" weight="21.26462"/>
+      <edge id="3" source="3" target="4" weight="7.169951"/>
+      <edge id="4" source="4" target="5" weight="1.054751"/>
+      <edge id="5" source="4" target="6" weight="1.28185"/>
+      <edge id="6" source="5" target="6" weight="0.6104425"/>
+      <edge id="7" source="6" target="7" weight="4.818325"/>
+      <edge id="8" source="8" target="9" weight="0.6642168"/>
+      <edge id="9" source="10" target="11" weight="0.8160882"/>
+      <edge id="10" source="9" target="12" weight="0.7071068"/>
+      <edge id="11" source="11" target="12" weight="0.9055385"/>
+      <edge id="12" source="8" target="12" weight="0.2397581"/>
+      <edge id="13" source="13" target="14" weight="0.2881728"/>
+      <edge id="14" source="10" target="13" weight="0.805367"/>
+      <edge id="15" source="9" target="15" weight="0.2426474"/>
+      <edge id="16" source="15" target="16" weight="0.4037358"/>
+      <edge id="17" source="10" target="17" weight="0.1207394"/>
+      <edge id="18" source="9" target="18" weight="0.3093674"/>
+      <edge id="19" source="11" target="18" weight="0.2793353"/>
+      <edge id="20" source="12" target="18" weight="0.8430944"/>
+      <edge id="21" source="15" target="18" weight="0.4363231"/>
+      <edge id="22" source="11" target="19" weight="0.6"/>
+      <edge id="23" source="10" target="19" weight="0.8590693"/>
+      <edge id="24" source="13" target="19" weight="0.1672603"/>
+      <edge id="25" source="15" target="19" weight="0.3349594"/>
+      <edge id="26" source="18" target="19" weight="0.3771316"/>
+      <edge id="27" source="7" target="20" weight="0.1792038"/>
+      <edge id="28" source="16" target="21" weight="0.1649512"/>
+      <edge id="29" source="14" target="21" weight="0.1724272"/>
+      <edge id="30" source="22" target="23" weight="0.4460901"/>
+      <edge id="31" source="8" target="22" weight="0.5528092"/>
+      <edge id="32" source="17" target="24" weight="0.3645888"/>
+      <edge id="33" source="16" target="25" weight="0.4107494"/>
+      <edge id="34" source="16" target="26" weight="0.3662197"/>
+      <edge id="35" source="21" target="26" weight="0.4159627"/>
+      <edge id="36" source="25" target="26" weight="0.1215264"/>
+      <edge id="37" source="23" target="27" weight="0.1057365"/>
+      <edge id="38" source="22" target="27" weight="0.4155284"/>
+      <edge id="39" source="11" target="28" weight="0.7905544"/>
+      <edge id="40" source="24" target="28" weight="0.0223439"/>
+      <edge id="41" source="7" target="29" weight="0.2051195"/>
+      <edge id="42" source="17" target="29" weight="0.2411182"/>
+      <edge id="43" source="20" target="29" weight="0.2126029"/>
+      <edge id="44" source="24" target="29" weight="0.5506986"/>
+      <edge id="45" source="14" target="30" weight="0.6340388"/>
+      <edge id="46" source="30" target="31" weight="0.5085755"/>
+      <edge id="47" source="21" target="30" weight="0.5531085"/>
+      <edge id="48" source="25" target="30" weight="0.2705015"/>
+      <edge id="49" source="26" target="30" weight="0.2023709"/>
+      <edge id="50" source="16" target="32" weight="0.1705922"/>
+      <edge id="51" source="14" target="32" weight="0.180086"/>
+      <edge id="52" source="13" target="32" weight="0.3593617"/>
+      <edge id="53" source="15" target="32" weight="0.3866602"/>
+      <edge id="54" source="19" target="32" weight="0.3848231"/>
+      <edge id="55" source="21" target="32" weight="0.06359119"/>
+      <edge id="56" source="8" target="33" weight="0.2941615"/>
+      <edge id="57" source="22" target="33" weight="0.6832582"/>
+      <edge id="58" source="27" target="33" weight="0.7651894"/>
+      <edge id="59" source="8" target="34" weight="0.131835"/>
+      <edge id="60" source="12" target="34" weight="0.2762839"/>
+      <edge id="61" source="33" target="34" weight="0.177752"/>
+      <edge id="62" source="16" target="35" weight="0.366217"/>
+      <edge id="63" source="23" target="35" weight="0.5768196"/>
+      <edge id="64" source="15" target="35" weight="0.5313867"/>
+      <edge id="65" source="22" target="35" weight="0.4698082"/>
+      <edge id="66" source="25" target="35" weight="0.4292396"/>
+      <edge id="67" source="14" target="36" weight="0.1474602"/>
+      <edge id="68" source="13" target="36" weight="0.2337387"/>
+      <edge id="69" source="31" target="37" weight="0.1388092"/>
+      <edge id="70" source="25" target="37" weight="0.2341791"/>
+      <edge id="71" source="30" target="37" weight="0.4184316"/>
+      <edge id="72" source="35" target="37" weight="0.4953837"/>
+      <edge id="73" source="23" target="38" weight="0.3734426"/>
+      <edge id="74" source="35" target="38" weight="0.3959912"/>
+      <edge id="75" source="37" target="38" weight="0.4762457"/>
+      <edge id="76" source="3" target="39" weight="12.67166"/>
+      <edge id="77" source="4" target="39" weight="7.18529"/>
+      <edge id="78" source="14" target="39" weight="0.6513382"/>
+      <edge id="79" source="6" target="39" weight="6.182051"/>
+      <edge id="80" source="31" target="39" weight="0.5386991"/>
+      <edge id="81" source="30" target="39" weight="0.04737014"/>
+      <edge id="82" source="36" target="39" weight="0.753181"/>
+      <edge id="83" source="10" target="40" weight="0.1218293"/>
+      <edge id="84" source="17" target="40" weight="0.1990361"/>
+      <edge id="85" source="20" target="40" weight="0.08791115"/>
+      <edge id="86" source="29" target="40" weight="0.244312"/>
+      <edge id="87" source="37" target="41" weight="0.3127902"/>
+      <edge id="88" source="38" target="41" weight="0.2633813"/>
+      <edge id="89" source="9" target="42" weight="0.3801316"/>
+      <edge id="90" source="8" target="42" weight="0.5808149"/>
+      <edge id="91" source="15" target="42" weight="0.3769347"/>
+      <edge id="92" source="22" target="42" weight="0.1911954"/>
+      <edge id="93" source="35" target="42" weight="0.4440721"/>
+      <edge id="94" source="11" target="43" weight="0.7318497"/>
+      <edge id="95" source="10" target="43" weight="0.2962499"/>
+      <edge id="96" source="17" target="43" weight="0.236072"/>
+      <edge id="97" source="24" target="43" weight="0.1666523"/>
+      <edge id="98" source="28" target="43" weight="0.1479468"/>
+      <edge id="99" source="31" target="44" weight="0.1562218"/>
+      <edge id="100" source="37" target="44" weight="0.2544116"/>
+      <edge id="101" source="41" target="44" weight="0.1482216"/>
+      <edge id="102" source="7" target="45" weight="0.5839689"/>
+      <edge id="103" source="6" target="45" weight="5.306146"/>
+      <edge id="104" source="10" target="45" weight="0.5980955"/>
+      <edge id="105" source="13" target="45" weight="0.4927428"/>
+      <edge id="106" source="20" target="45" weight="0.5115352"/>
+      <edge id="107" source="36" target="45" weight="0.43908"/>
+      <edge id="108" source="39" target="45" weight="1.102936"/>
+      <edge id="109" source="40" target="45" weight="0.5223457"/>
+      <edge id="110" source="27" target="46" weight="1.001237"/>
+      <edge id="111" source="46" target="47" weight="0.6380721"/>
+      <edge id="112" source="48" target="49" weight="0.1224296"/>
+      <edge id="113" source="48" target="50" weight="4.697256"/>
+      <edge id="114" source="51" target="52" weight="1.305874"/>
+      <edge id="115" source="51" target="53" weight="0.002433105"/>
+      <edge id="116" source="23" target="54" weight="1.069437"/>
+      <edge id="117" source="27" target="54" weight="1.007244"/>
+      <edge id="118" source="46" target="54" weight="0.01131459"/>
+      <edge id="119" source="47" target="55" weight="0.3199391"/>
+      <edge id="120" source="46" target="55" weight="0.5760032"/>
+      <edge id="121" source="48" target="56" weight="0.2753663"/>
+      <edge id="122" source="49" target="57" weight="3.085072"/>
+      <edge id="123" source="50" target="57" weight="2.467485"/>
+      <edge id="124" source="48" target="57" weight="3.172936"/>
+      <edge id="125" source="49" target="58" weight="0.0439892"/>
+      <edge id="126" source="48" target="58" weight="0.09484203"/>
+      <edge id="127" source="56" target="58" weight="0.3197596"/>
+      <edge id="128" source="3" target="59" weight="14.44072"/>
+      <edge id="129" source="49" target="59" weight="1.192343"/>
+      <edge id="130" source="58" target="59" weight="1.164979"/>
+      <edge id="131" source="3" target="60" weight="13.6858"/>
+      <edge id="132" source="31" target="60" weight="1.091807"/>
+      <edge id="133" source="39" target="60" weight="1.568895"/>
+      <edge id="134" source="44" target="60" weight="0.9926494"/>
+      <edge id="135" source="59" target="60" weight="1.220113"/>
+      <edge id="136" source="23" target="61" weight="1.287797"/>
+      <edge id="137" source="38" target="61" weight="1.14589"/>
+      <edge id="138" source="41" target="61" weight="1.008457"/>
+      <edge id="139" source="44" target="61" weight="0.9934336"/>
+      <edge id="140" source="59" target="61" weight="1.233011"/>
+      <edge id="141" source="60" target="61" weight="0.266776"/>
+      <edge id="142" source="46" target="62" weight="0.2986903"/>
+      <edge id="143" source="54" target="62" weight="0.2969547"/>
+      <edge id="144" source="55" target="62" weight="0.3962519"/>
+      <edge id="145" source="62" target="63" weight="0.5936425"/>
+      <edge id="146" source="52" target="64" weight="0.3967524"/>
+      <edge id="147" source="57" target="64" weight="1.719572"/>
+      <edge id="148" source="49" target="65" weight="1.788085"/>
+      <edge id="149" source="52" target="65" weight="1.479027"/>
+      <edge id="150" source="51" target="65" weight="0.314513"/>
+      <edge id="151" source="53" target="65" weight="0.3121256"/>
+      <edge id="152" source="57" target="65" weight="2.214415"/>
+      <edge id="153" source="59" target="65" weight="2.091267"/>
+      <edge id="154" source="27" target="66" weight="0.79258"/>
+      <edge id="155" source="33" target="66" weight="0.1691011"/>
+      <edge id="156" source="47" target="66" weight="0.597775"/>
+      <edge id="157" source="1" target="67" weight="9.892873"/>
+      <edge id="158" source="3" target="67" weight="15.11295"/>
+      <edge id="159" source="56" target="67" weight="0.1364466"/>
+      <edge id="160" source="58" target="67" weight="0.427577"/>
+      <edge id="161" source="59" target="67" weight="0.9208893"/>
+      <edge id="162" source="1" target="68" weight="4.192853"/>
+      <edge id="163" source="50" target="68" weight="4.947064"/>
+      <edge id="164" source="48" target="68" weight="6.168182"/>
+      <edge id="165" source="56" target="68" weight="6.257391"/>
+      <edge id="166" source="67" target="68" weight="6.360419"/>
+      <edge id="167" source="52" target="69" weight="0.5948275"/>
+      <edge id="168" source="51" target="69" weight="1.178382"/>
+      <edge id="169" source="63" target="69" weight="1.168697"/>
+      <edge id="170" source="52" target="70" weight="1.051469"/>
+      <edge id="171" source="57" target="70" weight="0.7711163"/>
+      <edge id="172" source="64" target="70" weight="1.007488"/>
+      <edge id="173" source="65" target="70" weight="1.665654"/>
+      <edge id="174" source="23" target="71" weight="1.305327"/>
+      <edge id="175" source="54" target="71" weight="0.4266222"/>
+      <edge id="176" source="63" target="71" weight="0.6095608"/>
+      <edge id="177" source="61" target="71" weight="1.468585"/>
+      <edge id="178" source="62" target="71" weight="0.4997914"/>
+      <edge id="179" source="51" target="72" weight="0.3289178"/>
+      <edge id="180" source="53" target="72" weight="0.3296619"/>
+      <edge id="181" source="63" target="72" weight="0.6652097"/>
+      <edge id="182" source="59" target="72" weight="2.140133"/>
+      <edge id="183" source="61" target="72" weight="2.014986"/>
+      <edge id="184" source="65" target="72" weight="0.5535749"/>
+      <edge id="185" source="69" target="72" weight="1.258262"/>
+      <edge id="186" source="71" target="72" weight="0.938474"/>
+      <edge id="187" source="27" target="73" weight="0.8133903"/>
+      <edge id="188" source="47" target="73" weight="0.3570707"/>
+      <edge id="189" source="46" target="73" weight="0.5374005"/>
+      <edge id="190" source="66" target="73" weight="0.3952922"/>
+      <edge id="191" source="50" target="74" weight="3.419411"/>
+      <edge id="192" source="50" target="75" weight="3.146106"/>
+      <edge id="193" source="68" target="75" weight="4.408575"/>
+      <edge id="194" source="74" target="75" weight="0.5170348"/>
+      <edge id="195" source="2" target="76" weight="20.49371"/>
+      <edge id="196" source="1" target="76" weight="7.940403"/>
+      <edge id="197" source="68" target="76" weight="5.969839"/>
+      <edge id="198" source="75" target="76" weight="3.072967"/>
+      <edge id="199" source="74" target="77" weight="2.77403"/>
+      <edge id="200" source="75" target="77" weight="3.023048"/>
+      <edge id="201" source="76" target="77" weight="0.06664083"/>
+      <edge id="202" source="2" target="78" weight="32.39205"/>
+      <edge id="203" source="50" target="78" weight="11.48702"/>
+      <edge id="204" source="74" target="78" weight="10.9875"/>
+      <edge id="205" source="76" target="78" weight="11.92674"/>
+      <edge id="206" source="77" target="78" weight="11.87019"/>
+      <edge id="207" source="57" target="79" weight="3.151602"/>
+      <edge id="208" source="64" target="79" weight="1.612998"/>
+      <edge id="209" source="33" target="80" weight="0.8884846"/>
+      <edge id="210" source="47" target="80" weight="0.9759003"/>
+      <edge id="211" source="66" target="80" weight="0.8707132"/>
+      <edge id="212" source="79" target="81" weight="1.33515"/>
+      <edge id="213" source="69" target="82" weight="1.433055"/>
+      <edge id="214" source="81" target="82" weight="1.060719"/>
+      <edge id="215" source="52" target="83" weight="0.8337007"/>
+      <edge id="216" source="64" target="83" weight="0.6751231"/>
+      <edge id="217" source="69" target="83" weight="0.9222261"/>
+      <edge id="218" source="79" target="83" weight="1.012451"/>
+      <edge id="219" source="82" target="83" weight="1.225604"/>
+      <edge id="220" source="47" target="84" weight="0.9916058"/>
+      <edge id="221" source="55" target="84" weight="1.225408"/>
+      <edge id="222" source="80" target="84" weight="0.1046083"/>
+      <edge id="223" source="82" target="84" weight="2.219447"/>
+      <edge id="224" source="78" target="85" weight="13.93453"/>
+      <edge id="225" source="81" target="85" weight="2.062189"/>
+      <edge id="226" source="82" target="85" weight="2.410187"/>
+      <edge id="227" source="84" target="85" weight="1.979365"/>
+      <edge id="228" source="55" target="86" weight="0.7933051"/>
+      <edge id="229" source="63" target="86" weight="0.930452"/>
+      <edge id="230" source="62" target="86" weight="0.967312"/>
+      <edge id="231" source="69" target="86" weight="1.059804"/>
+      <edge id="232" source="82" target="86" weight="1.207764"/>
+      <edge id="233" source="84" target="86" weight="1.61164"/>
+      <edge id="234" source="81" target="87" weight="1.374861"/>
+      <edge id="235" source="82" target="87" weight="0.8668656"/>
+      <edge id="236" source="83" target="87" weight="0.6392485"/>
+      <edge id="237" source="50" target="88" weight="5.84922"/>
+      <edge id="238" source="57" target="88" weight="3.875368"/>
+      <edge id="239" source="78" target="88" weight="11.056"/>
+      <edge id="240" source="79" target="88" weight="0.8062258"/>
+      <edge id="241" source="81" target="88" weight="1.180095"/>
+      <edge id="242" source="85" target="88" weight="3.224903"/>
+      <edge id="243" source="79" target="89" weight="0.2911348"/>
+      <edge id="244" source="81" target="89" weight="1.378453"/>
+      <edge id="245" source="83" target="89" weight="0.7510081"/>
+      <edge id="246" source="87" target="89" weight="0.2082047"/>
+      <edge id="247" source="12" target="90" weight="0.509902"/>
+      <edge id="248" source="33" target="90" weight="0.7642316"/>
+      <edge id="249" source="34" target="90" weight="0.6756869"/>
+      <edge id="250" source="80" target="90" weight="0.4975167"/>
+      <edge id="251" source="24" target="91" weight="0.4849374"/>
+      <edge id="252" source="29" target="91" weight="0.8963742"/>
+      <edge id="253" source="11" target="92" weight="1.184442"/>
+      <edge id="254" source="24" target="92" weight="0.7397956"/>
+      <edge id="255" source="28" target="92" weight="0.7528248"/>
+      <edge id="256" source="85" target="92" weight="3.122016"/>
+      <edge id="257" source="11" target="93" weight="1.103705"/>
+      <edge id="258" source="12" target="93" weight="0.8305203"/>
+      <edge id="259" source="90" target="93" weight="0.4558114"/>
+      <edge id="260" source="92" target="93" weight="1.363286"/>
+      <edge id="261" source="91" target="94" weight="0.04937823"/>
+      <edge id="262" source="92" target="94" weight="0.3983877"/>
+      <edge id="263" source="80" target="95" weight="0.2270068"/>
+      <edge id="264" source="84" target="95" weight="0.3079601"/>
+      <edge id="265" source="90" target="95" weight="0.3046053"/>
+      <edge id="266" source="7" target="96" weight="1.556335"/>
+      <edge id="267" source="29" target="96" weight="1.366793"/>
+      <edge id="268" source="85" target="96" weight="3.830342"/>
+      <edge id="269" source="91" target="96" weight="0.6782835"/>
+      <edge id="270" source="92" target="96" weight="0.8742545"/>
+      <edge id="271" source="24" target="97" weight="0.4636432"/>
+      <edge id="272" source="91" target="97" weight="0.05091414"/>
+      <edge id="273" source="92" target="97" weight="0.4009521"/>
+      <edge id="274" source="94" target="97" weight="0.005255473"/>
+      <edge id="275" source="92" target="98" weight="1.660768"/>
+      <edge id="276" source="93" target="98" weight="0.6291859"/>
+      <edge id="277" source="84" target="99" weight="0.5084101"/>
+      <edge id="278" source="85" target="99" weight="1.716339"/>
+      <edge id="279" source="95" target="99" weight="0.4164418"/>
+      <edge id="280" source="98" target="99" weight="0.4371825"/>
+      <edge id="281" source="90" target="100" weight="0.3"/>
+      <edge id="282" source="93" target="100" weight="0.3500914"/>
+      <edge id="283" source="95" target="100" weight="0.2688204"/>
+      <edge id="284" source="98" target="100" weight="0.6024295"/>
+      <edge id="285" source="99" target="100" weight="0.3508293"/>
+      <edge id="286" source="85" target="101" weight="1.442221"/>
+      <edge id="287" source="92" target="101" weight="1.832709"/>
+      <edge id="288" source="98" target="101" weight="0.1818827"/>
+      <edge id="289" source="99" target="101" weight="0.4443211"/>
+      <edge id="290" source="5" target="102" weight="1.231303"/>
+      <edge id="291" source="7" target="102" weight="4.357946"/>
+      <edge id="292" source="6" target="102" weight="0.9618617"/>
+      <edge id="293" source="96" target="102" weight="3.799793"/>
+      <edge id="294" source="91" target="103" weight="0.1849234"/>
+      <edge id="295" source="92" target="103" weight="0.4145139"/>
+      <edge id="296" source="94" target="103" weight="0.2067927"/>
+      <edge id="297" source="96" target="103" weight="0.5265008"/>
+      <edge id="298" source="4" target="104" weight="3.913119"/>
+      <edge id="299" source="5" target="104" weight="3.471311"/>
+      <edge id="300" source="78" target="104" weight="24.28653"/>
+      <edge id="301" source="85" target="104" weight="10.55426"/>
+      <edge id="302" source="96" target="104" weight="7.319629"/>
+      <edge id="303" source="102" target="104" weight="3.985663"/>
+      <edge id="304" source="3" target="105" weight="8.229957"/>
+      <edge id="305" source="4" target="105" weight="5.903389"/>
+      <edge id="306" source="104" target="105" weight="3.662308"/>
+    </edges>
+  </graph>
+</gexf>
+
