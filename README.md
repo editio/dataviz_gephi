@@ -330,12 +330,10 @@ Contrastar con la modularidad:
 
 ## Red espacial
 
-☞ Explorar redes espaciales
+☞ Explorar redes espaciales (Gephi no es el mejor entorno para trabajar con redes y mapas)
 
 1. Gephi > open ```homero_odisea.gexf```.
-2. Plugin: Geo Layout
-
-
+2. Plugin: Geo Layout.
 
 ## Formatos de publicación
 
@@ -349,9 +347,14 @@ Contrastar con la modularidad:
 # Tutoriales, manuales, bibliografía
 
 - Albert-László Barabási, [Network Science](http://networksciencebook.com), 2016.
+- Mathieu Bastian, Sebastien Heymann, Mathieu Jacomy, “Gephi: An Open Source Software for Exploring and Manipulating Networks”, _International AAAI Conference on Weblogs and Social Media_, 2009, pp. 361-362.
 - Gephi, [Learn how to use Gephi](https://gephi.org/users/).
 - Martin Grandjean, [Gephi: Introduction to Network Analysis and Visualization](http://www.martingrandjean.ch/gephi-introduction), 14/10/2015.
+- Mathieu Jacomy, “A standard for presenting network visualizations”, _Reticular_, 01/03/2019, <https://reticular.hypotheses.org/834>.
+
 - Clément Levallois, [Gephi tutorials](https://seinecle.github.io/gephi-tutorials/), Last update: 2022.
 - Mark Newman, _Networks: An Introduction_, Oxford University Press, 2010.
 - Katherine Ognyanova, [Static and dynamic network visualization with R](https://kateto.net/network-visualization), 2021
 - Katharina A. Zweig, _Network Analysis Literacy: A Practical Approach to the Analysis of Networks_, Springer, 2016.
+
+
