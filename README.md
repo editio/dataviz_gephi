@@ -237,6 +237,22 @@ Red de estilometría de obras teatrales del Siglo de Oro. Los nodos representan 
 
 - ```estilometria_teatro.gexf```
 
+## Bibliografía
+
+Red de coautoría de 3500 publicaciones sobre Estilometría. La bibliografía ha sido recopilada por Christof Schöch, _Bibliography on Stylometry_, 2017, DOI: [10.5281/zenodo.835190](https://doi.org/10.5281/zenodo.3629772)
+
+Las entradas bibliográficas se han formalizado en red de coautoría usando VOSviewer. La red final de coautoría tiene 523 nodos (autores).
+
+- ```biblio_stylo.gexf```
+
+## La _Odisea_ de Homero
+
+Red de lugares de la _Odisea_ de Homero basada en una triangulación de Delaunay, para mostrar los lugares periféricos y centrales. Parte del proyecto [_Digital mapping of literature_](https://editio.github.io/mapping.literature/)
+
+- ```homero_odisea.gexf```
+
+
+
 # Prácticas paso a paso
  
 ## Red de caracteres
@@ -330,10 +346,21 @@ Contrastar con la modularidad:
 
 ## Red espacial
 
-☞ Explorar redes espaciales (Gephi no es el mejor entorno para trabajar con redes y mapas)
+☞ Explorar redes espaciales
+
+Gephi no es el mejor entorno para trabajar con redes y mapas, pero es posible disponer los nodos siguiendo coordenadas geográficas. Es necesario contar con la latitud y la longitud de los lugares.
 
 1. Gephi > open ```homero_odisea.gexf```.
-2. Plugin: Geo Layout.
+2. Layout Plugin: Geo Layout.
+
+## Bibliografía
+
+☞ Explorar redes desconectadas
+
+1. Gephi > open ```biblio_stylo.gexf```.
+- Layout: Layout: Fruchterman Reingold (comparar con Force atlas 2).
+- Comparar algoritmos de modularidad.
+
 
 ## Formatos de publicación
 
