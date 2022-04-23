@@ -247,11 +247,9 @@ Las entradas bibliográficas se han formalizado en red de coautoría usando VOSv
 
 ## La _Odisea_ de Homero
 
-Red de lugares de la _Odisea_ de Homero basada en una triangulación de Delaunay, para mostrar los lugares periféricos y centrales. Parte del proyecto [_Digital mapping of literature_](https://editio.github.io/mapping.literature/)
+Red de lugares de la _Odisea_ de Homero basada en una triangulación de Delaunay, para mostrar los lugares periféricos y centrales. Parte del proyecto [_Digital mapping of literature_ (Spatial Networks)](https://editio.github.io/mapping.literature/spatialnet.html).
 
 - ```homero_odisea.gexf```
-
-
 
 # Prácticas paso a paso
  
