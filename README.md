@@ -32,9 +32,14 @@
 - Redes culturales:
     - [Premios y premiados](https://w.wiki/52Ju) 
 
-
-
 # Redes
+
+|red |nodos|aristas|
+|--|--|--|
+|Obra teatral|Personajes|Coaparición en escena|
+|Estilometría|Obras|Semejanza estilística|
+|Colaboración científica|Autores|Coautoría de trabajos|
+|...|... |...|
 
 - Método de representación de patrones de conexión o interacción entre partes de un sistema.
 
