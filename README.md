@@ -16,8 +16,9 @@
 ## _Showcase_
 
 - Redes de caracteres:
-    - Coaparición en escena: [Dracor](https://dracor.org)
-    - Coaparición en novelas: [_Les Miserables_](https://bost.ocks.org/mike/miserables/)
+    - Coaparición en teatro: [Dracor](https://dracor.org)
+    - Coaparición en cine: [Movie Galaxies](https://moviegalaxies.com). Data [DOI. 10.7910/DVN/T4HBA3](https://doi.org/10.7910/DVN/T4HBA3)
+    - Coaparición en novela: [_Les Miserables_](https://bost.ocks.org/mike/miserables/)
     - Dinámicas: [Visualising the dynamics of character networks](https://maladesimaginaires.github.io/intnetviz/)
     - Paratextos: [Proyecto Bieses](https://www.bieses.net/editorial.html)
 - Redes Textuales:
