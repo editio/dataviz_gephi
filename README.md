@@ -215,7 +215,7 @@ Se encuentran en Tools > Plugin. Añaden a Gephi funcionalidades extra (métrica
 
 - _Leiden algorithm_: Algoritmo de modularidad.
 
-# Datos
+# Datos para este curso
 
 Los archivos en formato CSV y GEXF se encuentran en la carpeta ```/data``` de este repositorio.
 
