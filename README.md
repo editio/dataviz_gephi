@@ -18,7 +18,7 @@
 - Redes de caracteres:
     - Coaparición en teatro: [Dracor](https://dracor.org)
     - Coaparición en cine: [Movie Galaxies](https://moviegalaxies.com). Data [DOI. 10.7910/DVN/T4HBA3](https://doi.org/10.7910/DVN/T4HBA3)
-    - Coaparición en novela: [_Les Miserables_](https://bost.ocks.org/mike/miserables/)
+    - Coaparición en novela: [_Les Miserables_ (red)](https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgephi%2Fgephi%2Ff27ae4fc88cd1c43820b31d94eaf7c6df57782d0%2Fmodules%2FWelcomeScreen%2Fsrc%2Fmain%2Fresources%2Forg%2Fgephi%2Fdesktop%2Fwelcome%2Fsamples%2FLes%2520Miserables.gexf&r=v&sa=r&ca=m-s&st=r); [_Les Miserables_ (matriz)](https://bost.ocks.org/mike/miserables/) 
     - Dinámicas: [Visualising the dynamics of character networks](https://maladesimaginaires.github.io/intnetviz/)
     - Paratextos: [Proyecto Bieses](https://www.bieses.net/editorial.html)
 - Redes Textuales:
