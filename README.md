@@ -371,9 +371,9 @@ Gephi no es el mejor entorno para trabajar con redes y mapas, pero es posible di
 ☞ Formas de representación estática y dinámica de los grafos.
 
 1. Panel _Overview_: Screeshot (izquierda), More settings (derecha)...
-1. Panel _Preview_: exportar svg, png, pdf.
-2. Plugin: _Sigma Exporter_. Crea una carpeta con las librerías, datos y ficheros para mostrar el grafo de forma interactiva en un navegador. Es necesario subirlo a un servidor web, por ejemplo, usando [Github Pages](https://pages.github.com). Se puede lanzar un servidor web local para realizar pruebas en local: [Instrucciones](http://phc.uni.wroc.pl/interreg/w/losada/trans.html#web-server-in-your-computer).
-
+2. Panel _Preview_: exportar svg, png, pdf.
+3. Plugin: _Sigma Exporter_. Crea una carpeta con las librerías, datos y ficheros para mostrar el grafo de forma interactiva en un navegador. Es necesario subirlo a un servidor web, por ejemplo, usando [Github Pages](https://pages.github.com). Se puede lanzar un servidor web local para realizar pruebas en local: [Instrucciones](http://phc.uni.wroc.pl/interreg/w/losada/trans.html#web-server-in-your-computer).
+4. [Retina](https://ouestware.gitlab.io/retina/1.0.0-beta.1/) (Web app, beta): Visualización en el navegador (offline / online) a partir de un archivo GEXF
 
 # Tutoriales, manuales, bibliografía
 
