@@ -32,7 +32,8 @@
     - Similitud de contenido: [Connected Papers](https://www.connectedpapers.com/main/3149a915f738f044778e3decdb4278e2bad17808/Gephi%3A-An-Open-Source-Software-for-Exploring-and-Manipulating-Networks/graph)
 - Redes culturales:
     - [Premios y premiados](https://w.wiki/52Ju) 
-
+- Redes semánticas:
+    - [Familia de palabras](https://www.rae.es/dhle/dhle_grafo.php?id=22875)
 # Redes
 
 |red |nodos|aristas|
@@ -197,7 +198,7 @@ Flujo de trabajo: del dato a la visualización.
 
 ## Gephi. Open Graph Viz Platform
 
-Gephi acaba de ser actualizado a la versión 0.9.5 (last release: 03/05/2022). Se puede descargar desde su página <https://gephi.org>.
+Gephi acaba de ser actualizado a la versión 0.9.7 (last release: 04/08/2022). Se puede descargar desde su página <https://gephi.org> o directamente del repositorio en github [gephi/releases](https://github.com/gephi/gephi/releases).
 
 Una de las ventajas de la nueva versión es que viene ya con Java (lenguaje de programación y entorno de ejecución para programas como Gephi). Más sobre la instalación en <https://gephi.org/users/install/>
 
